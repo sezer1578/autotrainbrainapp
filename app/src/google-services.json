@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "354901481806",
+    "firebase_url": "https://mercurial-shape-305412-default-rtdb.firebaseio.com",
+    "project_id": "mercurial-shape-305412",
+    "storage_bucket": "mercurial-shape-305412.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:354901481806:android:883fbb831f7ed38de6261f",
+        "android_client_info": {
+          "package_name": "com.hms.atbotizmozel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "354901481806-3h02dta3h4g9r77bfvam67sc6n0dqo8j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCB84IR3uh4CIa78EalNTa2i3I1nVuvqrc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "354901481806-3h02dta3h4g9r77bfvam67sc6n0dqo8j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

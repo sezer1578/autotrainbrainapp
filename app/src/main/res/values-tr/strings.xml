@@ -1,0 +1,956 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Auto Train Brain Sosyal</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Ayarlar</string>
+    <string name="Broca_text">Broca Theta = </string>
+
+    <string name="registerMesasge">Hesabınız Yok mu?</string>
+    <string name="freeRegister">Ücretsiz Kayıt Ol</string>
+
+    <string name="old_pasw"> Eski Şifre </string>
+    <string name="new_pasw"> Yeni Şifre </string>
+    <string name="new_pasw_again"> Yeni Şifre Tekrar </string>
+    <string name="pasw_btn"> KAYDET </string>
+    <string name="change_pasw"> Şifreni Değiştir </string>
+    <string name="forget_pasw"> Şifremi Unuttum </string>
+    <string name="send"> GÖNDER </string>
+
+    <string name="mailSent"> Mail Gönderildi </string>
+    <string name="mailSentdes"> Yeni şifreniz mail adresinize gönderildi. </string>
+
+    <string name="subsEnd"> Üyelik Bitiş Tarihi </string>
+
+    <string name="location"> Konum </string>
+    <string name="email"> Email </string>
+
+    <string name="password_update_success">Şifreniz başarıyla güncellendi.</string>
+    <string name="passError1"> Yanlış Eski Şifre!</string>
+    <string name="passError2"> Şifreler Uyuşmuyor! </string>
+    <string name="passError3"> Lütfen yeni bir şifre giriniz!</string>
+
+    <string name="protocol"> Protokol </string>
+    <string name="mode"> Mod </string>
+    <string name="ActivityName"> Aktivite Adı </string>
+    <string name="waitMessage">Lütfen bekleyiniz...</string>
+    <string name="waitTitle">Raporunuz hazırlanıyor...</string>
+
+
+    <string name="atb_web_site">ATB - <a href="http://www.autotrainbrain.com">www.autotrainbrain.com</a></string>
+    <string name="company_web_site"><a href="https://www.healthmobilesoftware.com">www.healthmobilesoftware.com</a></string>
+    <string name="app_usage_info">Auto Train Brain disleksi uygulaması seansından sonra bu uygulamayı kullanınız.</string>
+
+    <string name="hint_username">Kullanıcı Adı</string>
+    <string name="hint_password">Şifre</string>
+    <string name="login">Giriş Yap</string>
+    <string name="or">veya</string>
+    <string name="register">Kayıt Ol</string>
+    <string name="company_info">HMS Health Mobile Software Sağlık Mobil Yazılım ve Eğitim A.Ş.\'nin bir ürünüdür, Sabancı Üniversitesi, INOVENT A.Ş. ve TÜBİTAK 1512 and 1507 tarafından desteklenmektedir. Bu proje Avrupa Birliği ve Türkiye Cumhuriyeti tarafından finanse edilmektedir.</string>
+    <string name="hint_birthdate">Doğum Tarihi</string>
+    <string name="hint_skill">Yetenek / Beceri</string>
+    <string name="hint_help">Ölçüm yapan</string>
+    <string name="fill_missings">Lütfen boş alanları doldurunuz</string>
+    <string name="gender">Cinsiyet</string>
+    <string name="man">Erkek</string>
+    <string name="woman">Kadın</string>
+    <string name="title_profile">Profilim</string>
+    <string name="action_logout">Çıkış Yap</string>
+    <string name="brain_left">Sol Beyin</string>
+    <string name="brain_right">Sağ Beyin</string>
+    <string name="point">Puan</string>
+    <string name="left">Sol</string>
+    <string name="dream">Rüya</string>
+    <string name="anxiety">Endişe</string>
+    <string name="checking_location_services">Konum servisini kontrol ediyorum</string>
+    <string name="start_writing_to_file">Dosyaya kayıt başladı</string>
+    <string name="right">Sağ</string>
+    <string name="data_could_not_save_check_connection">Veri kaydedilemedi, internet bağlantınızı kontrol ediniz</string>
+    <string name="info_green_red">Gözler açık, telefonla aranızdaki boşluğa odaklanın, yeşil ok iyi, kırmızı ok kötü</string>
+    <string name="open_eyes_learn_letters">Gözler açık, harfleri öğrenmeye odaklanın</string>
+    <string name="connection_epoc_success">EPOC+ bağlantı tamam</string>
+    <string name="user_removed">Kullanıcı kaldırıldı</string>
+    <string name="could_be">Olabilir</string>
+    <string name="not_have">Yok</string>
+    <string name="have">Var</string>
+    <string name="opened_location_services">Konum servisi acildi</string>
+    <string name="opened_writing_services">Dosya yazma servisi acildi</string>
+    <string name="checking_ble_connection">BLE Bağlantıyı kontrol ediyorum</string>
+    <string name="should_give_permissions">Uygulama bu izinler olmadan çalışamaz</string>
+    <string name="open_your_bluetooth">EPOC+ bağlantısı için Bluetooth\'u açın</string>
+    <string name="end_writing_to_file">Dosyaya kayıt durdu</string>
+    <string name="ogrenme_guclugu">Öğrenme Güçlüğü</string>
+    <string name="excitement">Heyecan</string>
+    <string name="file_url">https://s3-us-east-2.amazonaws.com/atbprod/TR/</string>
+    <string name="ses_url">https://s3-us-east-2.amazonaws.com/atbprod/ses3/</string>
+    <string name="record_continues">Kayıt devam ediyor...</string>
+    <string name="summary">Özet</string>
+    <string name="error_unexpected">Beklenmedik bir hata oluştu, lütfen daha sonra tekrar deneyiniz.</string>
+    <string name="session">Seans</string>
+    <string name="have_no_data_for_chart">Özet için yeterli data bulunmamaktadır</string>
+    <string name="app_info">Bu uygulamayı kullanmadan önce doktorunuza danışınız, HMS A.Ş. bu yazılımın kullanımından doğabilecek herhangi bir zarardan sorumlu tutulamaz. Bu yazılımın insan üzerinde klinik deneyleri devam etmektedir ve şu ana kadar bir yan etki oluşturduğu bildirilmemiştir.</string>
+    <string name="copyright_info">Tüm haklar saklıdır © 2017 HMS A.Ş.\n6769 sayılı Sinai Mülkiyet Kanunu kapsamında Teknoloji Patent başvuruları yapılmıştır</string>
+    <string name="credit_limit">Aktivite Limitiniz</string>
+    <string name="credit_limit_message">Aktivite limitiniz dolmuştur. Uygulamayı kullanmaya devam etmek için kredi satın almalısınız. Satın alma seçenekleri yakında aktif olacaktır.</string>
+    <string name="hint_name_surname">Ad Soyad</string>
+    <string name="hint_phone">Telefon Numarası (05xxxxxxxxx)</string>
+    <string name="hint_address">Adres</string>
+    <string name="hint_mail">Email</string>
+    <string name="confirm">Onayla</string>
+    <string name="make_purchase">Satın Al</string>
+    <string name="enter_credit_card">Kart Bilgilerinizi Girin</string>
+    <string name="confirm_contracts">Mesafeli Satış Sözleşmesi ve Ön Bilgilendirme Formu\'nu okudum, onaylıyorum.</string>
+    <string name="installment_options">Yıllık abonelik ücreti kdv dahil 4200 TL\'dir.\n\n%s Taksit Seçenekleri</string>
+    <string name="make_payment">Ödeme Yap</string>
+    <string name="title_credit_card">Kredi Kartı Bilgileri</string>
+    <string name="next">-></string>
+    <string name="previous">Önceki</string>
+    <string name="card_expiry">SKT</string>
+    <string name="card_holder">KART SAHİBİ</string>
+    <string name="card_holder_name_sample">AD SOYAD</string>
+    <string name="card_mm_yy">MM/YY</string>
+    <string name="card_number">KART NUMARASI</string>
+    <string name="done">TAMAM</string>
+    <string name="error_card_expired">Kart süresi dolmuştur</string>
+    <string name="error_invalid_month">Hatalı ay</string>
+    <string name="expiry">SKT</string>
+    <string name="mm_yy">MM/YY</string>
+    <string name="name_on_card">KART ÜZERİNDEKİ İSİM</string>
+    <string name="sales_contract">Mesafeli Satış Sözleşmesi</string>
+    <string name="pre_info_contract">Ön Bilgilendirme Formu</string>
+    <string name="check_contracts">Ödemeyi yapmadan önce Mesafeli Satış Sözleşmesi ve Ön Bilgilendirme Formu\'nu onaylamanız gerekmektedir.</string>
+    <string name="payment_error">Ödeme alınamadı. Kart bilgilerinizi kontrol ediniz.</string>
+    <string name="credit_card_error">Kart bilgilerinizi kontrol ediniz.</string>
+    <string name="payment_success">Ödeme başarıyla gerçekleşti.</string>
+    <string name="loading">Yükleniyor...</string>
+    <string name="error_mail_or_username">Kullanıcı veya şifre hatalı</string>
+    <string name="error_login_internet">Kullanıcı girişinde sorun, internet bağlantınızı kontrol ediniz</string>
+    <string name="incorrect_mail_address">Geçerli bir mail adresi giriniz.</string>
+    <string name="procure">AutoTrainBrain kullanmaya devam etmek için senelik ₺4.200 (KDV Dahil) ile üye olmalısınız</string>
+    <!--<string name="action_buyreport">Rapor Satın Al</string>-->
+    <string name="action_buyreport">Rapor Görüntüle</string>
+    <string name="don_t_have_an_account">Hesabınız yok mu ?</string>
+    <string name="register_for_free">Ücretsiz Kayıt Ol</string>
+
+    <string-array name="skills_arrays">
+        <item>Sayısal</item>
+        <item>Sözel</item>
+        <item>Spor</item>
+        <item>Müzik</item>
+        <item>Resim</item>
+        <item>El İşi</item>
+    </string-array>
+
+    <string-array name="helper_arrays">
+        <item>Ölçüm yapan 1</item>
+        <item>Ölçüm yapan 2</item>
+        <item>Ölçüm yapan 3</item>
+        <item>Ölçüm yapan 4</item>
+        <item>Ölçüm yapan 5</item>
+    </string-array>
+
+    <string-array name="installments_array">
+        <item>1 Taksit</item>
+        <item>2 Taksit</item>
+        <item>3 Taksit</item>
+        <item>4 Taksit</item>
+        <item>5 Taksit</item>
+        <item>6 Taksit</item>
+        <item>7 Taksit</item>
+        <item>8 Taksit</item>
+        <item>9 Taksit</item>
+        <item>10 Taksit</item>
+        <item>11 Taksit</item>
+        <item>12 Taksit</item>
+    </string-array>
+    <string name="hint_gender">Cinsiyet</string>
+    <string name="hint_session">Aktivite Adedi</string>
+    <string name="hint_maxsession">Maksimum Aktivite Adedi</string>
+    <string name="hint_disclaim">Bu rapor tıbbi bir rapor değildir, sadece beyinde aktivite esnasında ölçülen yavaş dalgalara göre yorum üretilmektedir. Tıbbi olarak tanı almak için lütfen doktorunuzla görüşünüz.</string>
+    <string name="hint_reportprice">Bu raporun ücreti 29 TL, kredi kartı ile ödeyebilirsiniz.</string>
+    <string name="hint_session2">Aktivite Numarası</string>
+    <string name="bigger_session">Varolan aktivitelerden birisini giriniz</string>
+    <string name="show_report">Rapor Aktivitesi Göster</string>
+    <string name="diagnose">Oku protokolü</string>
+    <string name="diagnose_auditory">Konuş protokolü</string>
+    <string name="diagnose_manager">Akıl ve hiper protokolü</string>
+    <string name="dignose_care">Yön protokolü</string>
+    <string name="diagnose_anxiety">Akıl protokolü</string>
+    <string name="diagnose_AD">Dikkat eksiği olabilir</string>
+    <string name="diagnose_LD">Özgül öğrenme güçlüğü olabilir</string>
+    <string name="diagnose_LB">Sol beynini kullaniyor</string>
+    <string name="diagnose_RB">Sag beynini kullaniyor</string>
+    <string name="diagnose_gifted">Üstün yetenekli birey</string>
+    <string name="norm_data">Norm Data</string>
+    <string name="error_internet">Lütfen internet bağlantınızı kontrol ediniz</string>
+    <string name="user_created">Kullanıcı yaratıldı</string>
+    <string name="save">Kaydet</string>
+    <string name="profile_update_success">Profil kaydedildi</string>
+    <string name="alphatheta">Bağımlılık</string>
+    <string name="Addiction_text">Gözlerinizi kapatın ve rahatlayın. Rahatladıkça daha çok ses duyacaksınız</string>
+    <string name="go_to_payment_page">Ödeme Sayfasına Git</string>
+    <string name="payment_required_title">Uygulamayı kullanmaya devam etmek için ödeme yapmanız gerekmektedir.</string>
+    <string name="payment_required_message">Ödeme işlemini Auto Train Brain web sitesi üzerinden
+        gerçekleştirebilir ve uygulamayı kullanmaya devam edebilirsiniz.
+    </string>
+    <string name="thetabeta">Akıl</string>
+    <string name="diagnose_Focus">Aşırı Odaklanma</string>
+    <string name="speaking">Konuş</string>
+    <string name="reading">Oku</string>
+    <string name="mirrorneuron">Hiper</string>
+    <string name="spatial">Yön</string>
+
+    <string name="theta">Theta</string>
+    <string name="alpha">Alpha</string>
+    <string name="beta1">Beta1</string>
+    <string name="beta2">Beta2</string>
+    <string name="gamma">Gamma</string>
+    <string name="absolute">Absolute</string>
+    <string name="relative">Relative</string>
+    <string name="holistic">Bütünsel</string>
+    <string name="speak">Konuş</string>
+    <string name="write">Yaz</string>
+    <string name="alphabet">Alfabe</string>
+    <string name="app_update_message">Uygulamanın daha yeni versiyonu mevcuttur. Uygulamayı güncelleyerek devam edebilirsiniz.</string>
+    <string name="update">Güncelle</string>
+    <string name="diagnosepd">Oku, konuş, akıl, yön protokolü</string>
+
+    <string-array name="words_arrays">
+    <item>ne</item>
+    <item>ve</item>
+    <item>için</item>
+    <item>çok</item>
+    <item>ben</item>
+    <item>o</item>
+    <item>evet</item>
+    <item>var</item>
+    <item>ama</item>
+    <item>değil</item>
+    <item>hayır</item>
+    <item>sen</item>
+    <item>şey</item>
+    <item>daha</item>
+    <item>bana</item>
+    <item>kadar</item>
+    <item>seni</item>
+    <item>beni</item>
+    <item>iyi</item>
+    <item>tamam</item>
+    <item>onu</item>
+    <item>bunu</item>
+    <item>gibi</item>
+    <item>yok</item>
+    <item>benim</item>
+    <item>her</item>
+    <item>sana</item>
+    <item>sadece</item>
+    <item>neden</item>
+    <item>burada</item>
+    <item>senin</item>
+    <item>zaman</item>
+    <item>hiç</item>
+    <item>şimdi</item>
+    <item>nasıl</item>
+    <item>sonra</item>
+    <item>olduğunu</item>
+    <item>en</item>
+    <item>hadi</item>
+    <item>şu</item>
+    <item>öyle</item>
+    <item>güzel</item>
+    <item>biraz</item>
+    <item>önce</item>
+    <item>İyi</item>
+    <item>lütfen</item>
+    <item>ona</item>
+    <item>bak</item>
+    <item>böyle</item>
+    <item>oldu</item>
+    <item>hey</item>
+    <item>istiyorum</item>
+    <item>geri</item>
+    <item>onun</item>
+    <item>bile</item>
+    <item>gerçekten</item>
+    <item>artık</item>
+    <item>kim</item>
+    <item>eğer</item>
+    <item>bay</item>
+    <item>yani</item>
+    <item>çünkü</item>
+    <item>biliyorum</item>
+    <item>doğru</item>
+    <item>büyük</item>
+    <item>buraya</item>
+    <item>peki</item>
+    <item>başka</item>
+    <item>belki</item>
+    <item>olarak</item>
+    <item>tek</item>
+    <item>efendim</item>
+    <item>biri</item>
+    <item>haydi</item>
+    <item>olur</item>
+    <item>olacak</item>
+    <item>olan</item>
+    <item>adam</item>
+    <item>işte</item>
+    <item>merhaba</item>
+    <item>sanırım</item>
+    <item>teşekkürler</item>
+    <item>orada</item>
+    <item>nerede</item>
+    <item>biz</item>
+    <item>demek</item>
+    <item>hiçbir</item>
+    <item>yardım</item>
+    <item>ederim</item>
+    <item>bilmiyorum</item>
+    <item>gün</item>
+    <item>gece</item>
+    <item>fazla</item>
+    <item>bütün</item>
+    <item>harika</item>
+    <item>yeni</item>
+    <item>bunun</item>
+    <item>gel</item>
+    <item>biliyor</item>
+    <item>tüm</item>
+    <item>ile</item>
+    <item>kötü</item>
+    <item>oh</item>
+    <item>olsun</item>
+    <item>küçük</item>
+    <item>tam</item>
+    <item>ol</item>
+    <item>son</item>
+    <item>siz</item>
+    <item>şeyler</item>
+    <item>şeyi</item>
+    <item>bayan</item>
+    <item>hemen</item>
+    <item>sorun</item>
+    <item>size</item>
+    <item>üzgünüm</item>
+    <item>ver</item>
+    <item>onları</item>
+    <item>lanet</item>
+    <item>teşekkür</item>
+    <item>git</item>
+    <item>devam</item>
+    <item>kız</item>
+    <item>dostum</item>
+    <item>pekala</item>
+    <item>sizi</item>
+    <item>gerek</item>
+    <item>bizi</item>
+    <item>bize</item>
+    <item>dur</item>
+    <item>hakkında</item>
+    <item>buna</item>
+    <item>aynı</item>
+    <item>oluyor</item>
+    <item>kendi</item>
+    <item>anne</item>
+    <item>baba</item>
+    <item>diye</item>
+    <item>iş</item>
+    <item>kimse</item>
+    <item>izin</item>
+    <item>asla</item>
+    <item>hala</item>
+    <item>tabii</item>
+    <item>al</item>
+    <item>seninle</item>
+    <item>selam</item>
+    <item>olabilir</item>
+    <item>şunu</item>
+    <item>benimle</item>
+    <item>söyle</item>
+    <item>para</item>
+    <item>bizim</item>
+    <item>önemli</item>
+    <item>yoksa</item>
+    <item>içinde</item>
+    <item>herkes</item>
+    <item>ister</item>
+    <item>değilim</item>
+    <item>yüzden</item>
+    <item>gidelim</item>
+    <item>geldi</item>
+    <item>dakika</item>
+    <item>tekrar</item>
+    <item>bırak</item>
+    <item>vardı</item>
+    <item>biliyorsun</item>
+    <item>özür</item>
+    <item>işte</item>
+    <item>bakalım</item>
+    <item>istiyorsun</item>
+    <item>yapıyorsun</item>
+    <item>hep</item>
+    <item>onlar</item>
+    <item>buradan</item>
+    <item>geliyor</item>
+    <item>baba</item>
+    <item>anne</item>
+    <item>kardeş</item>
+    <item>anneanne</item>
+    <item>dede</item>
+    <item>deve</item>
+    <item>el</item>
+    <item>ele</item>
+    <item>Ali</item>
+    <item>ver</item>
+    <item>koş</item>
+    <item>zıpla</item>
+    <item>iyi</item>
+    <item>kötü</item>
+    <item>çirkin</item>
+    <item>güzel</item>
+    <item>doğru</item>
+    <item>yanlış</item>
+    <item>siyah</item>
+    <item>kara</item>
+    <item>beyaz</item>
+    <item>kırmızı</item>
+    <item>mavi</item>
+    <item>yeşil</item>
+    <item>sarı</item>
+    <item>mor</item>
+    <item>yaz</item>
+    <item>kış</item>
+    <item>ilkbahar</item>
+    <item>sonbahar</item>
+    <item>pazartesi</item>
+    <item>salı</item>
+    <item>çarşamba</item>
+    <item>perşembe</item>
+    <item>cuma</item>
+    <item>cumartesi</item>
+    <item>pazar</item>
+    <item>ocak</item>
+    <item>şubat</item>
+    <item>mart</item>
+    <item>nisan</item>
+    <item>mayıs</item>
+    <item>haziran</item>
+    <item>temmuz</item>
+    <item>ağustos</item>
+    <item>eylül</item>
+    <item>ekim</item>
+    <item>kasım</item>
+    <item>aralık</item>
+    <item>türk</item>
+    <item>bayrak</item>
+    <item>okul</item>
+    <item>sınıf</item>
+    <item>kitap</item>
+    <item>defter</item>
+    <item>kalem</item>
+    <item>oyuncak</item>
+    <item>kamyon</item>
+    <item>palyaço</item>
+    <item>bebek</item>
+    <item>köpek</item>
+    <item>kedi</item>
+    <item>fare</item>
+    <item>sincap</item>
+    <item>yılan</item>
+    <item>şempanze</item>
+    <item>1</item>
+    <item>2</item>
+    <item>3</item>
+    <item>4</item>
+    <item>5</item>
+    <item>6</item>
+    <item>7</item>
+    <item>8</item>
+    <item>9</item>
+    <item>10</item>
+    <item>pırasa</item>
+    <item>ıspanak</item>
+    <item>biber</item>
+    <item>domates</item>
+    <item>salatalık</item>
+    <item>marul</item>
+    <item>çilek</item>
+    <item>muz</item>
+    <item>erik</item>
+    <item>elma</item>
+    <item>portakal</item>
+    <item>armut</item>
+    <item>doktor</item>
+    <item>hemşire</item>
+    <item>mühendis</item>
+    <item>öğretmen</item>
+    <item>polis</item>
+    <item>gitar</item>
+    <item>piyano</item>
+    <item>kemençe</item>
+    <item>flüt</item>
+    <item>saz</item>
+    <item>tenis</item>
+    <item>basketbol</item>
+    <item>voleybol</item>
+    <item>yüzme</item>
+    <item>bardak</item>
+    <item>tabak</item>
+    <item>çatal</item>
+    <item>bıçak</item>
+    <item>tencere</item>
+    <item>çaydanlık</item>
+    <item>sabun</item>
+    <item>su</item>
+    <item>şampuan</item>
+    <item>bluz</item>
+    <item>etek</item>
+    <item>pantolon</item>
+    <item>çorap</item>
+    <item>palto</item>
+    <item>atkı</item>
+    <item>eldiven</item>
+    <item>şapka</item>
+    <item>çanta</item>
+    <item>omlet</item>
+    <item>yumurta</item>
+    <item>ekmek</item>
+    <item>pasta</item>
+    <item>makarna</item>
+    <item>et</item>
+    <item>zıpla</item>
+    <item>amca</item>
+    <item>teyze</item>
+    <item>dayı</item>
+    <item>inek</item>
+    <item>timsah</item>
+    <item>fil</item>
+    <item>aslan</item>
+    <item>panda</item>
+    <item>deve kuşu</item>
+    <item>kirpi</item>
+    <item>koyun</item>
+    <item>kartal</item>
+    <item>at</item>
+    <item>maymun</item>
+    <item>tavşan</item>
+    <item>gri</item>
+    <item>lacivert</item>
+    <item>turkuaz</item>
+    <item>lila</item>
+    <item>kahverengi</item>
+    <item>pembe</item>
+    <item>eflatun</item>
+    <item>turuncu</item>
+    <item>mandalina</item>
+    <item>muz</item>
+    <item>karpuz</item>
+    <item>kiraz</item>
+    <item>kivi</item>
+    <item>şeftali</item>
+    <item>limon</item>
+    <item>kavun</item>
+    <item>üzüm</item>
+    <item>greyfurt</item>
+    <item>bilgisayar</item>
+    <item>makas</item>
+    <item>okul çantası</item>
+    <item>silgi</item>
+    <item>hesap makinesi</item>
+    <item>kalemtraş</item>
+    <item>küre</item>
+    <item>cetvel</item>
+    <item>kalem kutusu</item>
+    <item>kara tahta</item>
+    <item>not defteri</item>
+    <item>mikroskop</item>
+    <item>sandalye masa</item>
+    <item>çizmek</item>
+    <item>uyumak</item>
+    <item>atlamak</item>
+    <item>içmek</item>
+    <item>ağlamak</item>
+    <item>pişirmek</item>
+    <item>koşmak</item>
+    <item>kesmek</item>
+    <item>yemek</item>
+    <item>oynamak</item>
+    <item>yazmak</item>
+    <item>yıkamak</item>
+    <item>okumak</item>
+    <item>yardım etmek</item>
+    <item>atletizm</item>
+    <item>sutopu</item>
+    <item>okçuluk</item>
+    <item>hentbol</item>
+    <item>badmington</item>
+    <item>futbol</item>
+    <item>golf</item>
+    <item>buz hokeyi</item>
+    <item>beyzbol</item>
+    <item>bovling</item>
+    <item>boks</item>
+    <item>bilardo</item>
+    <item>keman</item>
+    <item>akerdeon</item>
+    <item>armonika</item>
+    <item>arp</item>
+    <item>klarnet</item>
+    <item>trompet</item>
+    <item>ud</item>
+    <item>saksafon</item>
+    <item>tef</item>
+    <item>bateri</item>
+    <item>çello</item>
+    <item>gayda</item>
+    <item>ceket</item>
+    <item>kemer</item>
+    <item>çizme</item>
+    <item>kaban</item>
+    <item>çorap</item>
+    <item>kravat</item>
+    <item>atkı</item>
+    <item>terlik</item>
+    <item>kazak</item>
+    <item>ayakkabı</item>
+    <item>elbise</item>
+    <item>salata</item>
+    <item>balık</item>
+    <item>çikolata</item>
+    <item>çorba</item>
+    <item>süt</item>
+    <item>yoğurt</item>
+    <item>peynir</item>
+    <item>zeytin</item>
+    <item>pizza</item>
+    <item>sandviç</item>
+    <item>yumurta</item>
+    <item>dondurma</item>
+    <item>kepçe</item>
+    <item>kevgir</item>
+    <item>rende</item>
+    <item>kupa</item>
+    <item>buzdolabı</item>
+    <item>şişe</item>
+    <item>fırın</item>
+    <item>küvet</item>
+    <item>lavabo</item>
+    <item>saç fırçası</item>
+    <item>saç kurutma makinesi</item>
+    <item>jiet</item>
+    <item>diş fırçası</item>
+    <item>tuvalet kağıdı</item>
+    <item>diş macunu</item>
+    <item>duş</item>
+    <item>traş kremi</item>
+    <item>havlu</item>
+    <item>bornoz</item>
+    <item>tuvalet</item>
+    <item>patates</item>
+    <item>soğan</item>
+    <item>mantar</item>
+    <item>havuç</item>
+    <item>salatalık</item>
+    <item>lahana</item>
+    <item>kırmızı biber</item>
+    <item>yeşil biber</item>
+    <item>kabak</item>
+    <item>domates</item>
+    <item>patlıcan</item>
+    <item>ıspanak</item>
+    <item>mısır</item>
+</string-array>
+
+    <string-array name="positives">
+    <item>Bravo doğru yaptın</item>
+    <item>Aferin</item>
+    <item>ne kadar zekisin</item>
+    <item>harikasın</item>
+    <item>akıllı çocuk</item>
+    <item>Doğru bildin</item>
+    <item>evet</item>
+    <item>tamam</item>
+    <item>böyle devam et</item>
+    <item>mükemmel</item>
+    <item>her şey yolunda</item>
+    <item>becerilerin çok yüksek</item>
+    <item>yeteneklerine güveniyorum</item>
+    <item>sen güçlüsün</item>
+    <item>sen başarılısın</item>
+    <item>bana ilham veriyorsun</item>
+    <item>yeterlisin ve fazlasısın</item>
+    <item>zorlukları aştın</item>
+    <item>mutluluk verici</item>
+    <item>müthiş bir potansiyelsin</item>
+</string-array>
+
+    <string-array name="negatives">
+        <item>Maalesef doğru değil</item>
+        <item>yanlış ama olsun</item>
+        <item>bir dahakine inşallah</item>
+        <item>azıcık dikkat</item>
+        <item>dikkatin dağıldı</item>
+        <item>sonrakine devam</item>
+        <item>yanlış</item>
+        <item>zekisin ama dikkat etmelisin</item>
+        <item>hayır</item>
+        <item>puan alamadın</item>
+        <item>azıcık dikkat</item>
+        <item>uh</item>
+        <item>hayır tatlım</item>
+        <item>lol</item>
+        <item>yanlış canım</item>
+        <item>devam et tatlım</item>
+        <item>yanlış ama yine de seni seviyorum</item>
+        <item>hadi daha iyisini yapalım</item>
+        <item>ha gayret</item>
+        <item>mola mı verelim</item>
+    </string-array>
+
+    <string-array name="spell_arrays">
+    <item>le</item>
+    <item>el</item>
+    <item>al</item>
+    <item>ba</item>
+    <item>ca</item>
+    <item>de</item>
+    <item>ve</item>
+    <item>ne</item>
+    <item>leb</item>
+    <item>bi</item>
+    <item>bil</item>
+    <item>sen</item>
+    <item>şey</item>
+    <item>mer</item>
+    <item>ha</item>
+    <item>kar</item>
+    <item>şim</item>
+    <item>nim</item>
+    <item>na</item>
+    <item>sıl</item>
+    <item>sın</item>
+    <item>iyi</item>
+    <item>mi</item>
+    <item>sin</item>
+    <item>ka</item>
+    <item>pı</item>
+    <item>el</item>
+    <item>al</item>
+    <item>il</item>
+    <item>ek</item>
+    <item>ak</item>
+    <item>ik</item>
+    <item>en</item>
+    <item>an</item>
+    <item>in</item>
+    <item>le</item>
+    <item>la</item>
+    <item>li</item>
+    <item>ke</item>
+    <item>ka</item>
+    <item>ki</item>
+    <item>ne</item>
+    <item>na</item>
+    <item>ni</item>
+    <item>lel</item>
+    <item>lal</item>
+    <item>lil</item>
+    <item>lek</item>
+    <item>lak</item>
+    <item>lik</item>
+    <item>len</item>
+    <item>lan</item>
+    <item>lin</item>
+    <item>kel</item>
+    <item>kal</item>
+    <item>kil</item>
+    <item>kek</item>
+    <item>kak</item>
+    <item>kik</item>
+    <item>ken</item>
+    <item>kan</item>
+    <item>kin</item>
+    <item>nel</item>
+    <item>nal</item>
+    <item>nil</item>
+    <item>nek</item>
+    <item>nak</item>
+    <item>nik</item>
+    <item>nen</item>
+    <item>nan</item>
+    <item>nin</item>
+    <item>kalk</item>
+    <item>ilk</item>
+    </string-array>
+
+    <string name="tfe_dc_app_name" translatable="false">Auto Train Brain Rakam</string>
+    <string name="tfe_dc_clear_button_text" translatable="false">Temizle</string>
+    <string name="tfe_dc_prediction_text_placeholder" translatable="false">Bir rakam yazın</string>
+    <string name="tfe_dc_classification_error_message" translatable="false">Çizimi yorumlayamadım: %s</string>
+    <string name="spell">Hecele</string>
+
+    //tunc and beyza
+    <string name="let_s_learn_my_family">Ailemi Öğreniyorum</string>
+    <string name="play" >OYNA</string>
+    <string name="play_u"><u>OYNA</u></string>
+    <string name="title_activity_parent__page" >Parent_Page</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="name">İsim</string>
+    <string name="choose_photo">Resim Seç</string>
+    <string name="save_relative">Kaydet</string>
+    <string name="add_relative">Ekle</string>
+    <string name="child">Çocuk</string>
+    <string name="parent">Veli</string>
+    <string name="find_your_family">Aileni Bul</string>
+    <string name="lets_learn_my_family">Ailemi Öğreniyorum</string>
+    <string name="learn">Öğren</string>
+    <string name="learn_u"><u>ÖĞREN</u></string>
+    <string name="lets_learn_my_familyy">Let\'s learn my family</string>
+    <string name="add_new_relative">Yeni akraba ekle</string>
+    <string name="check_relatives_list">Akraba Listesi</string>
+    <string name="result">Sonuç</string>
+    <string name="f_n_sh">Son</string>
+    <string name="congratulations">Tebrikler</string>
+    <string name="delete_relative">Akrabayı Sil</string>
+    <string name="result_0_10">Sonuç: 0 / 10</string>
+    <string name="family_tree">Aile üyeleri</string>
+    <string name="update_photo">Fotoğrafı Güncelle</string>
+    <string name="set_relative">Profil Düzenle</string>
+    <string name="learn_your_family">Aileni tanı</string>
+    <string name="parent_settings">Ebeveyn Ayarları</string>
+    <string name="reports">Raporlar</string>
+    <string name="relative_saved">Akraba Kaydedildi</string>
+    <string name="relative_updated">Akraba Güncellendi</string>
+    <string name="at_least_4_relatives_needed">En az 4 akraba gerekli</string>
+    <string name="at_least_1_relatives_needed">En az 1 akraba gerekli</string>
+    <string name="fill_name">Lütfen İsim Giriniz</string>
+    <string name="fill_photo">Lütfen Fotoğraf Yükleyiniz</string>
+    <string name="member_deleted">Akraba Silindi</string>
+    <string name="result_message1">Daha çok çalışmalısın!</string>
+    <string name="result_message2">Daha iyisini yapabilirsin!</string>
+    <string name="result_message3">Güzel iş çıkardın!</string>
+    <string name="result_message4">Tebrikler!</string>
+    <string name="relative_degree">Akrabalık Derecesi</string>
+    <string name="emotion">Duygu Durumu</string>
+    <string name="set_relative_emotion">Duygu Durumu Düzenle</string>
+    <string name="add_relative_emotion">Duygu Durumu Ekle</string>
+    <string name="relative_emotions">Ailenin Duyguları</string>
+    <string name="relative_emotions_list">Ailenin Duyguları</string>
+    <string name="find_the_emotion">Duyguları bul</string>
+    <string name="learn_your_family_s_emotions">Ailenin duygularını öğren</string>
+    <string name="delete">Sil</string>
+    <string name="who_is_it">Bu Kim?</string>
+
+
+    <!--Seray/Sezer-->
+    <string name="question">Fotoğraftaki duyguyu aşağıdaki seçeneklerde bulabilir misin?</string>
+    <string name="points">Puan:</string>
+    <string name="highestScore">En yüksek skor:</string>
+    <string name="takenTime">Geçen süre:</string>
+    <string name="choseEmotionCategory">Duygu Kategorisini Seçin</string>
+    <string name="test">Test</string>
+    <string name="learning">Öğrenme</string>
+    <string name="humanFace">İnsan Yüzü</string>
+    <string name="cartoonCharacters">Çizgi Film Karakterleri</string>
+    <string name="emojis">Emojiler</string>
+    <string name="nextquestion">İleri</string>
+    <string name="happy">Mutlu</string>
+    <string name="sad">Üzgün</string>
+    <string name="excıted">Heyecanlı</string>
+    <string name="fearful">Korkulu</string>
+    <string name="cheerful">Neşeli</string>
+    <string name="anxıous">Endişeli</string>
+    <string name="angry">Sinirli</string>
+    <string name="bored">Sıkkın</string>
+    <string name="dısgusted">İğrenmek</string>
+    <string name="thınkıng">Düşünceli</string>
+    <string name="selected"> Seçildi</string>
+    <string name="exitTest">Test Bitsin Mi ?</string>
+    <string name="exitTestLong">Testi Bitirmek İstiyor Musunuz ?</string>
+    <string name="yes">Evet</string>
+    <string name="no">Hayır</string>
+    <string name="humanEmotionTest">İnsan Yüz İfadesi Testi</string>
+    <string name="cartoonEmotionTest">Çizgi Film Karakterleri Testi</string>
+    <string name="smiley">Gülen</string>
+    <string name="surprised">Şaşırmış</string>
+    <string name="scared">Korkmuş</string>
+    <string name="upset">Üzgün</string>
+    <string name="normal">Normal</string>
+    <string name="furious">Öfkeli</string>
+    <string name="emojiEmotionTest">Emoji İfadeleri Testi</string>
+    <string name="shy">Utangaç</string>
+    <string name="grumpy">Huysuz</string>
+    <string name="sick">Hasta</string>
+    <string name="gameOver">Test Bitti</string>
+    <string name="restartTest">Testi Tekrarla</string>
+    <string name="goHomePage">Ana Sayfa</string>
+    <string name="learningPage">Öğrenme Sayfası</string>
+    <string name="learningHappy">Mutluluk Duygusu</string>
+    <string name="nervous">Gergin</string>
+    <string name="hungry">Acıkmış</string>
+    <string name="alexHappy">Ayşe kendisini mutlu hissediyor.</string>
+    <string name="happyExp">Mutluluğu görmek için, \n Gülen bir yüz \n Sevinçli bir ifade \n Gözler tamamen açık ve ağız köşeleri hafifçe kalkık.</string>
+    <string name="happyWhen">Ne zaman mutlu olursunuz?</string>
+    <string name="happyWhen2">Parkta oyun oynarken</string>
+    <string name="happyWhen3">Ailemiz ile</string>
+    <string name="JackExcited">Ayşe çok heyecanlı.</string>
+    <string name="excitedExp">Heyecanı göstermek için, \nSevinç içinde zıplama \nBüyük bir gülümseme \nDüz bir şekilde sabit duramama \nNeşe içinde olma.</string>
+    <string name="excitedWhen">Ne zaman heyecanlanırsın?</string>
+    <string name="excitedWhen2">Dans ettiğimde</string>
+    <string name="excitedWhen3">Sahile gittiğim zaman</string>
+    <string name="JimAngry">Ayşe çok sinirli.</string>
+    <string name="angryExp">Siniri göstermek için, \nYüz kızarır \nBurun delikleri genişler \nKaşlar çatılır \nDişler sıkılır ve gıcırdar.</string>
+    <string name="angryWhen">Ne zaman sinirli hissedersin?</string>
+    <string name="angryWhen2">Oyunu kaybettiğim zaman</string>
+    <string name="angryWhen3">Kimse beni anlamadığında</string>
+    <string name="MarkSad"> Ayşe üzgün hissediyor.</string>
+    <string name="sadExp">Üzüntüyü göstermek için, \nGözyaşları yüzünden dökülür \nOmuzlar çöker \nAğız kenarları aşağı doğru uzar \nTitreyen ses çıkarma.</string>
+    <string name="sadWhen">Ne zaman üzgün hissedersin?</string>
+    <string name="sadWhen2">Yalnız kaldığım zaman</string>
+    <string name="sadWhen3">Yağmur yağdığı için dışarı çıkmadığım zaman</string>
+    <string name="JohnHungry"> Ahmet aç hissediyor.</string>
+    <string name="hungryExp">Açlığı göstermek için, \nGuruldayan karın  \nZayıf hissetme  \nEnerji kaybı \nDikkat dağınıklığı</string>
+    <string name="hungryWhen">Ne zaman aç hissedersin?</string>
+    <string name="hungryWhen2">Sabah erkenden uyandığım zaman</string>
+    <string name="hungryWhen3">Uzun bir süre yemek yemediğim zaman</string>
+    <string name="AliceNervous"> Ayşe kendini gergin hissediyor.</string>
+    <string name="nervousExp">Gerginliği göstermek için, \nTerli avuçiçi ve eller \nHızlı kalp atışı  \nTırnak yemek \nKekeleyerek konuşma</string>
+    <string name="nervousWhen">Ne zaman gergin hissedersin?</string>
+    <string name="nervousWhen2">Kalabalık bir yerde konuşurken</string>
+    <string name="nervousWhen3">Çalıştığım konuyu anlamadığım zaman</string>
+    <string name="KatyShy"> Ahmet utangaç hissediyor.</string>
+    <string name="shyExp">Utanmayı göstermek için, \nSessiz kalmak \nSürekli yere doğru bakmak  \nYumuşak konuşmak \nYüzün pempeleşmesi.</string>
+    <string name="shyWhen">Ne zaman utangaç hissedersin?</string>
+    <string name="shyWhen2">Arkadaşımla konuşurken</string>
+    <string name="shyWhen3">İnsanlar gruplar halinde konuşurken</string>
+    <string name="EmilySick">Fatma hasta hissediyor.</string>
+    <string name="sickExp">Hastalığı göstermek için, \nAkıntılı burun \nKırmızı ve uykulu gözler \nHapşurma ve öksürme \nYorgun görünüm.</string>
+    <string name="sickWhen">Ne zaman hasta hissedersin?</string>
+    <string name="sickWhen2">Başım döndüğü zaman</string>
+    <string name="sickWhen3">Karın ağrım olduğunda</string>
+    <string name="EmmaBored">Ayşe sıkılmış hissediyor.</string>
+    <string name="boredExp">Sıkıntıyı göstermek için, \nSürekli esnemek \nBoş bakışlar \nKısık Gözler \nUzaklara dalmak</string>
+    <string name="boredWhen">Ne zaman sıkıntılı hissedersin?</string>
+    <string name="boredWhen2">Tek başıma oyun oynadığım zaman</string>
+    <string name="boredWhen3">Tek başıma yemek yediğim zaman</string>
+
+    <!--Kıvanç-->
+
+    <string name="hello">Merhaba</string>
+    <string name="h_a_y">Nasılsın?</string>
+    <string name="w_i_y_n">Adın ne?</string>
+    <string name="m_n_i">Benim adım</string>
+    <string name="fine_thank">İyiyim, teşekkür ederim</string>
+    <string name="goodBye">Güle güle</string>
+    <string name="soci_words">Sosyalleş</string>
+    <string name="family_member_recognition">Aileni tanı</string>
+    <string name="face_emotion">Yüz ifadelerini tanı</string>
+    <string name="match">Doğrusunu seç</string>
+    <string name="special">Oku</string>
+    <string name="family_emotion">Ailenin duyguları</string>
+    <string name="choose_game">Giriş Yap</string>
+
+</resources>

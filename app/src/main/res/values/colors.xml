@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#49478c</color>
+    <color name="colorPrimaryDark">#18205e</color>
+    <color name="colorAccent">#74c0c2</color>
+
+    <color name="blue">#3d3d8f</color>
+    <color name="blue2">#42428a</color>
+    <color name="blue3">#424280</color>
+    <color name="link_blue">#88dddd</color>
+    <color name="white">#ffffff</color>
+    <color name="grey">#9b9b9b</color>
+    <color name="red">#ff6666</color>
+    <color name="dark_red">#c73939</color>
+    <color name="orange">#ff9966</color>
+    <color name="dark_orange">#c96d40</color>
+    <color name="black">#000000</color>
+    <color name="green">#59a6a6</color>
+    <color name="dark_green">#338484</color>
+    <color name="pink">#ffcccc</color>
+    <color name="dark_pink">#ff43a4</color>
+
+    <color name="white_transparent">#b0ffffff</color>
+    <color name="base_text_color">#202020</color>
+    <color name="dim_lighter_gray">#80E0E0E0</color>
+    <color name="dim_very_lighter_gray">#30E0E0E0</color>
+    <color name="hint_text_color">#9b9b9b</color>
+    <color name="button_color">#cfcbcb</color>
+    <color name="secondary_text_color">#9b9b9b</color>
+    <color name="dark_text_color">#4a4a4a</color>
+    <color name="list_secondary_color">#f5fbfb</color>
+    <color name="window_background">#f4f4f4</color>
+
+    <color name="chart1">#59a683</color>
+    <color name="chart2">#5caf7f</color>
+    <color name="chart3">#51c683</color>
+    <color name="chart4">#65efa0</color>
+    <color name="chart5">#66ffa8</color>
+    <color name="chart6">#66ff78</color>
+    <color name="chart7">#75ff66</color>
+    <color name="chart8">#82ff66</color>
+    <color name="chart9">#ccff66</color>
+    <color name="chart10">#fff066</color>
+    <color name="chart11">#ffcc66</color>
+    <color name="chart12">#ffa666</color>
+    <color name="chart13">#ff8f66</color>
+    <color name="chart14">#ff8066</color>
+    <color name="chart15">#ff6666</color>
+</resources>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".socializationwords.ChooseProcessTests">
+    <LinearLayout
+        android:layout_width="387dp"
+        android:layout_height="566dp"
+        android:layout_marginLeft="@dimen/margin_large"
+        android:layout_marginTop="@dimen/margin_small"
+        android:layout_marginRight="@dimen/margin_large"
+        android:layout_marginBottom="@dimen/margin_medium"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title_learn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="40dp"
+            android:gravity="center"
+            android:text="@string/play_u"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:textSize="30sp"></TextView>
+
+
+        <Button
+            android:id="@+id/family_face_test"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="5dp"
+            android:text="@string/family_member_recognition"
+            android:textColor="@color/white"
+            android:textSize="17sp"
+            app:backgroundTint="@color/orange"
+            android:background="@drawable/button_background"/>
+
+        <Button
+            android:id="@+id/emotion_learn_test"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="5dp"
+            android:text="@string/face_emotion"
+            android:textColor="@color/white"
+            android:textSize="17sp"
+            app:backgroundTint="@color/colorAccent"
+            android:background="@drawable/button_background"/>
+
+
+        <Button
+            android:id="@+id/socialization_words_test"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="5dp"
+            android:text="@string/soci_words"
+            android:textColor="@color/white"
+            android:textSize="17sp"
+            app:backgroundTint="@color/orange"
+            android:background="@drawable/button_background"/>
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

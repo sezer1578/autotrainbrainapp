@@ -1,0 +1,159 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorPrimary"
+    tools:context=".activity.LoginActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_above="@id/lytLogin"
+        android:layout_marginBottom="1dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/background" />
+
+    <ScrollView
+        android:id="@+id/lytLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/vie_bg"
+        android:layout_alignParentBottom="true">
+
+        <FrameLayout
+            android:id="@+id/lytLoginfr"
+            android:layout_width="match_parent"
+            android:layout_height="330dp"
+            android:background="@drawable/vie_bg">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="295dp"
+                android:layout_marginTop="15dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start|center"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginBottom="6dp"
+                    android:text="@string/hint_username"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/userNameEdt"
+                    android:layout_width="320dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/edit_text_border"
+                    android:hint="@string/hint_username"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="15dp"
+                    android:singleLine="true"
+                    android:textColorHint="@color/cardview_dark_background"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start|center"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="6dp"
+                    android:text="@string/hint_password"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/passwordLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginBottom="1dp"
+                    app:hintEnabled="false"
+                    android:focusable="false"
+                    app:passwordToggleEnabled="true">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/passwordEdt"
+                        android:layout_width="320dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@drawable/edit_text_border"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:hint="@string/hint_password"
+                        android:inputType="textPassword"
+                        android:paddingLeft="20dp"
+                        android:paddingTop="10dp"
+                        android:paddingRight="20dp"
+                        android:paddingBottom="10dp"
+                        android:singleLine="true"
+                        android:textColorHint="@color/cardview_dark_background"
+                        android:textSize="15sp" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <TextView
+                    android:id="@+id/pswForgetTxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:layout_marginRight="40dp"
+                    android:clickable="true"
+                    android:text="@string/forget_pasw"
+                    android:textColor="@color/green"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/loginBtn"
+                    android:layout_width="320dp"
+                    android:layout_height="55dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginBottom="8dp"
+                    android:background="@drawable/new_viebg"
+                    android:backgroundTint="@color/green"
+                    android:text="@string/login"
+                    android:textColor="@android:color/white" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@id/lytRegister"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginTop="270dp"
+                android:orientation="vertical"
+                android:layout_marginBottom="20dp">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/registerMesasge"
+                    android:textColor="@color/grey"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/registerTxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:clickable="true"
+                    android:text="@string/freeRegister"
+                    android:textColor="@color/green"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+        </FrameLayout>
+    </ScrollView>
+</RelativeLayout>

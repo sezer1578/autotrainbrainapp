@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.hms.atbotizmozel">
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".ATBApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:screenOrientation="portrait"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".activity.ParentChild"></activity>
+        <activity android:name=".activity.FamilyGame"
+            android:parentActivityName=".socializationwords.ChooseProcessTests" />
+        <activity android:name=".activity.mailSent" />
+        <activity
+            android:name=".activity.PasswordChange"
+            android:parentActivityName=".activity.ProfileActivity" />
+        <activity
+            android:name=".activity.ForgotPassword"
+            android:parentActivityName=".activity.LoginActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.AddOptions"
+            android:parentActivityName=".activity.ChildPage" />
+        <activity android:name=".socializationwords.GameOverSociWords" />
+        <activity
+            android:name=".socializationwords.TestPhasee"
+            android:parentActivityName=".socializationwords.ChooseProcessTests" />
+        <activity
+            android:name=".activity.FirstActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".socializationwords.VideoPage"
+            android:parentActivityName=".socializationwords.LearningPhase" />
+        <activity
+            android:name=".socializationwords.ChooseProcessTests"
+            android:parentActivityName=".activity.ChildPage" />
+        <activity
+            android:name=".socializationwords.LearningPhase"
+            android:parentActivityName=".socializationwords.ChooseProcess" />
+        <activity
+            android:name=".socializationwords.ChooseProcess"
+            android:parentActivityName=".activity.ChildPage" />
+        <activity
+            android:name=".activity.LoginActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.SpeakActivity"
+            android:label="@string/speaking"
+            android:launchMode="singleTask"
+            android:parentActivityName=".activity.MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".activity.SpellActivity"
+            android:label="@string/spell"
+            android:launchMode="singleTask"
+            android:parentActivityName=".activity.MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".activity.RegisterActivity"
+            android:label="@string/register"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.CreditActivity"
+            android:label="@string/make_purchase"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeOrange"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".activity.ReportBuyActivity"
+            android:label="@string/action_buyreport"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeOrange"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".activity.ShowReportActivity"
+            android:label="@string/show_report"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeOrange"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".activity.MainActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:parentActivityName=".socializationwords.ChooseProcess"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.ProfileActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:parentActivityName=".socializationwords.ChooseProcess"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.ChartActivity"
+            android:label="@string/summary"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeOrange" />
+        <activity
+            android:name=".activity.PaymentActivity"
+            android:label="@string/make_purchase"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeOrange" />
+        <activity
+            android:name=".activity.ContractActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeRed" />
+        <activity
+            android:name="com.cooltechworks.creditcarddesign.CardEditActivity"
+            android:label="@string/title_credit_card"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeOrange" />
+        <activity
+            android:name=".activity.PaymentWebViewActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeRed" />
+        <activity
+            android:name=".activity.PrePaymentActivity"
+            android:label="@string/make_purchase"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeOrange" />
+        <activity
+            android:name=".activity.DigitActivity"
+            android:exported="true"
+            android:label="@string/write"
+            android:launchMode="singleTask"
+            android:parentActivityName=".activity.MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".activity.ChildPage"
+            android:parentActivityName=".activity.ParentChild"/>
+        <activity
+            android:name=".activity.Learn"
+            android:parentActivityName=".socializationwords.ChooseProcess" />
+        <activity
+            android:name=".activity.SetMember"
+            android:parentActivityName=".activity.settings" />
+        <activity
+            android:name=".activity.result"
+            android:parentActivityName=".activity.ChildPage" />
+        <activity
+            android:name=".activity.inPlay"
+            android:parentActivityName=".socializationwords.ChooseProcessTests" />
+        <activity
+            android:name=".activity.addMember"
+            android:parentActivityName=".activity.settings" />
+        <activity
+            android:name=".activity.settings"
+            android:parentActivityName=".activity.ChildPage" />
+        <activity
+            android:name=".activity.GameOver"
+            android:parentActivityName=".activity.EmotionOptions" />
+        <activity
+            android:name=".activity.CartoonEmotionTest"
+            android:parentActivityName=".activity.EmotionOptions" />
+        <activity
+            android:name=".activity.EmojiEmotionTest"
+            android:parentActivityName=".activity.EmotionOptions" />
+        <activity
+            android:name=".activity.HumanEmotionTest"
+            android:parentActivityName=".activity.EmotionOptions" />
+        <activity
+            android:name=".activity.TestOrLearning"
+            android:parentActivityName=".activity.ChildPage" />
+        <activity
+            android:name=".activity.EmotionLearning"
+            android:parentActivityName=".activity.Learn" />
+        <activity
+            android:name=".activity.EmotionOptions"
+            android:parentActivityName=".activity.Learn" />
+        <activity
+            android:name=".activity.LearningExcited"
+            android:parentActivityName=".activity.EmotionLearning" />
+        <activity
+            android:name=".activity.LearningBored"
+            android:parentActivityName=".activity.EmotionLearning" />
+        <activity
+            android:name=".activity.LearningSick"
+            android:parentActivityName=".activity.EmotionLearning" />
+        <activity
+            android:name=".activity.LearningShy"
+            android:parentActivityName=".activity.EmotionLearning" />
+        <activity
+            android:name=".activity.LearningNervous"
+            android:parentActivityName=".activity.EmotionLearning" />
+        <activity
+            android:name=".activity.LearningHungry"
+            android:parentActivityName=".activity.EmotionLearning" />
+        <activity
+            android:name=".activity.LearningSad"
+            android:parentActivityName=".activity.EmotionLearning" />
+        <activity
+            android:name=".activity.LearningAngry"
+            android:parentActivityName=".activity.EmotionLearning" />
+        <activity
+            android:name=".activity.LearningHappy"
+            android:parentActivityName=".activity.EmotionLearning" />
+        <activity
+            android:name=".activity.RelativeEmotionsList"
+            android:parentActivityName=".activity.AddOptions" />
+        <activity
+            android:name=".activity.AddRelativeEmotions"
+            android:parentActivityName=".activity.RelativeEmotionsList" />
+        <activity
+            android:name=".activity.RelativeEmotionLearn"
+            android:parentActivityName=".socializationwords.ChooseProcess" />
+        <activity
+            android:name=".activity.SetRelativeEmotions"
+            android:parentActivityName=".activity.RelativeEmotionsList" />
+        <activity
+            android:name=".activity.RelativeEmotionGame"
+            android:parentActivityName=".socializationwords.ChooseProcessTests" />
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="fc63c4ecf413732dd473162daf2a2a13fdb32f88" />
+    </application>
+
+</manifest>

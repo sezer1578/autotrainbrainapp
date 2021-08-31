@@ -1,0 +1,997 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Auto Train Brain Social</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="Broca_text">Broca Theta =</string>
+
+    <string name="registerMesasge">Do not Have an Account?</string>
+    <string name="freeRegister">Sign Up for Free</string>
+
+    <string name="old_pasw"> Old Password </string>
+    <string name="new_pasw"> New Password </string>
+    <string name="new_pasw_again"> New Password Again </string>
+
+    <string name="protocol"> Protocol </string>
+    <string name="mode"> Mode </string>
+    <string name="ActivityName"> Activity Name </string>
+    <string name="waitMessage">Please wait...</string>
+    <string name="waitTitle">Your report is being prepared...</string>
+
+    <string name="pasw_btn"> SAVE </string>
+    <string name="change_pasw"> Change Your Password </string>
+    <string name="forget_pasw"> Forget Password </string>
+    <string name="send"> SEND </string>
+
+    <string name="mailSent"> Mail Sent </string>
+    <string name="mailSentdes"> Your new password has been sent to your e-mail address. </string>
+
+    <string name="subsEnd"> Subscription End Date </string>
+
+    <string name="password_update_success">Password updated successfuly.</string>
+    <string name="passError1"> Wrong Old Password!</string>
+    <string name="passError2"> Passwords do not match! </string>
+    <string name="passError3"> Please enter a new password!</string>
+
+    <string name="location"> Location </string>
+    <string name="email"> Email </string>
+
+    <string name="atb_web_site">ATB -
+        <a href="http://www.autotrainbrain.com">www.autotrainbrain.com</a>
+    </string>
+    <string name="company_web_site">
+        <a href="https://www.healthmobilesoftware.com">www.healthmobilesoftware.com</a>
+    </string>
+    <string name="app_usage_info">Use this application after Auto Train Brain Dyslexia session."
+    </string>
+
+    <string name="hint_username">Username</string>
+    <string name="hint_password">Password</string>
+    <string name="login">Login</string>
+    <string name="or">or</string>
+    <string name="register">Register</string>
+    <string name="company_info">Auto Train Brain is a registered trademark of HMS Health Mobile
+        Software Sağlık Mobil Yazılım A.Ş. The project is supported by Sabancı University. Funded by
+        TUBITAK 1512 BIGG in 2017. Funded by European Union and Turkish Republic.
+    </string>
+    <string name="hint_birthdate">Birthdate</string>
+    <string name="hint_skill">Skill</string>
+    <string name="hint_help">Helper</string>
+    <string name="fill_missings">Please fill missing sections</string>
+    <string name="gender">Gender</string>
+    <string name="man">Man</string>
+    <string name="woman">Woman</string>
+    <string name="title_profile">My Profile</string>
+    <string name="action_logout">Logout</string>
+    <string name="brain_left">Left Brain</string>
+    <string name="brain_right">Right Brain</string>
+    <string name="point">Point</string>
+    <string name="left">Left</string>
+    <string name="dream">Dream</string>
+    <string name="alphatheta">Addiction</string>
+    <string name="anxiety">Anxiety</string>
+    <string name="checking_location_services">Controlling location service</string>
+    <string name="start_writing_to_file">Started writing to file</string>
+    <string name="right">Right</string>
+    <string name="data_could_not_save_check_connection">Can not save data, check internet
+        connection
+    </string>
+    <string name="info_green_red">Eyes open, concentrate, green is good, red is bad</string>
+    <string name="open_eyes_learn_letters">Eyes open, concentrate to learn the letters</string>
+    <string name="connection_epoc_success">Connected to EPOC+</string>
+    <string name="user_removed">User removed</string>
+    <string name="could_be">Could be</string>
+    <string name="not_have">No</string>
+    <string name="have">Yes</string>
+    <string name="opened_location_services">Location service enabled</string>
+    <string name="opened_writing_services">File service enabled</string>
+    <string name="checking_ble_connection">Controlling BLE connection</string>
+    <string name="should_give_permissions">Application can not work without these permissions
+    </string>
+    <string name="open_your_bluetooth">Bluetooth should be opened for connecting to EPOC+</string>
+    <string name="end_writing_to_file">Stopped writing to file</string>
+    <string name="ogrenme_guclugu">Learning Difficulty</string>
+    <string name="excitement">Excitement</string>
+    <string name="file_url">https://s3-us-east-2.amazonaws.com/atbprod/EN/</string>
+    <string name="ses_url">https://s3-us-east-2.amazonaws.com/atbprod/ses4/</string>
+    <string name="record_continues">Recording continues...</string>
+    <string name="summary">Summary</string>
+    <string name="error_unexpected">An error occured, please try again later.</string>
+    <string name="session">Session</string>
+    <string name="have_no_data_for_chart">There is not enough data for summary</string>
+    <string name="app_info">Please consult your doctor before using this application, HMS A.Ş.
+        explicitly disclaims all claims and liabilities arising out of the use of this application.
+        The application is ongoing clinical trials and no side effects has been reported to date.
+    </string>
+    <string name="copyright_info">All rights reserved © 2017 HMS A.Ş.\nPatents pending</string>
+    <string name="credit_limit">Activity Limit</string>
+    <string name="credit_limit_message">Your activity limit has been reached. You must purchase
+        credit to continue using the app. Purchasing options will be active soon.
+    </string>
+    <string name="hint_name_surname">Name Surname</string>
+    <string name="hint_phone">Telephone Number (05xxxxxxxxx)</string>
+    <string name="hint_address">Address</string>
+    <string name="hint_mail">Email</string>
+    <string name="confirm">Confirm</string>
+    <string name="make_purchase">Make Purchase</string>
+    <string name="enter_credit_card">Enter Your Credit Card Info</string>
+    <string name="confirm_contracts">I have read and approve the Distance Sales Contract and
+        Preliminary Information Form.
+    </string>
+    <string name="installment_options">Annual subscription fee is 4200 TL including VAT.\n\n%s
+        Installment Options
+    </string>
+    <string name="make_payment">Make Payment</string>
+    <string name="title_credit_card">Credit Card Information</string>
+    <string name="card_expiry">CARD EXPIRY</string>
+    <string name="card_holder">CARD HOLDER</string>
+    <string name="card_holder_name_sample">NAME SURNAME</string>
+    <string name="card_mm_yy">MM/YY</string>
+    <string name="card_number">CARD NUMBER</string>
+    <string name="done">DONE</string>
+    <string name="error_card_expired">Card expired</string>
+    <string name="error_invalid_month">Invalid month</string>
+    <string name="expiry">EXPIRY</string>
+    <string name="mm_yy">MM/YY</string>
+    <string name="name_on_card">NAME ON CARD</string>
+    <string name="next">-></string>
+    <string name="previous">PREVIOUS</string>
+    <string name="sales_contract">Distance Sales Contract</string>
+    <string name="pre_info_contract">Preliminary Information Form</string>
+    <string name="check_contracts">You must approve the Distance Sales Contract and Preliminary
+        Information Form before you pay.
+    </string>
+    <string name="payment_error">Payment was not received. Check your credit card information.
+    </string>
+    <string name="credit_card_error">Check your credit card information.</string>
+    <string name="payment_success">Payment has been successful.</string>
+    <string name="loading">Loading...</string>
+    <string name="payment_success_url" translatable="false">https://healthmobilesoftware.com/
+    </string>
+    <string name="payment_error_url" translatable="false">https://autotrainbrain.com/</string>
+    <string name="error_mail_or_username">Wrong username or password</string>
+    <string name="error_login_internet">Problem on login, check your internet connection</string>
+    <string name="incorrect_mail_address">Please enter a valid email address.</string>
+    <string name="procure">If you would like to continue to use AutoTrainBrain, please subscribe
+        with ₺4200 including VAT per year
+    </string>
+    <!--<string name="action_buyreport">Buy Report</string>-->
+    <string name="action_buyreport">Show Report</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="register_for_free">Register for Free</string>
+
+
+    <string-array name="skills_arrays">
+        <item>Numeric</item>
+        <item>Verbal</item>
+        <item>Spor</item>
+        <item>Music</item>
+        <item>Painting</item>
+        <item>Handcraft</item>
+    </string-array>
+
+    <string-array name="helper_arrays">
+        <item>Helper 1</item>
+        <item>Helper 2</item>
+        <item>Helper 3</item>
+        <item>Helper 4</item>
+        <item>Helper 5</item>
+    </string-array>
+
+    <string-array name="installments_array">
+        <item>1 Installment</item>
+        <item>2 Installment</item>
+        <item>3 Installment</item>
+        <item>4 Installment</item>
+        <item>5 Installment</item>
+        <item>6 Installment</item>
+        <item>7 Installment</item>
+        <item>8 Installment</item>
+        <item>9 Installment</item>
+        <item>10 Installment</item>
+        <item>11 Installment</item>
+        <item>12 Installment</item>
+    </string-array>
+    <string name="hint_gender">Gender</string>
+    <string name="hint_session">Session</string>
+    <string name="hint_maxsession">Maximum session</string>
+    <string name="hint_disclaim">This report is not a medical report, it only provides information
+        about the slow brain signals read during a session. Please consult your doctor for medical
+        diagnose.
+    </string>
+    <string name="hint_reportprice">This report\'s price is 29 TL and you can pay with your credit
+        car.
+    </string>
+    <string name="hint_session2">Activity Number</string>
+    <string name="bigger_session">Session requested is bigger than available</string>
+    <string name="show_report">Show Report Activity</string>
+    <string name="diagnose">Read protocol</string>
+    <string name="diagnose_auditory">Speak protocol</string>
+    <string name="diagnose_manager">Clever and hyper protocol</string>
+    <string name="dignose_care">Spatial protocol</string>
+    <string name="diagnose_anxiety">Clever protocol</string>
+    <string name="diagnose_AD">Attention deficit</string>
+    <string name="diagnose_LD">Learning disability</string>
+    <string name="diagnose_LB">Uses left brain</string>
+    <string name="diagnose_RB">Uses right brain</string>
+    <string name="diagnose_gifted">Gifted person</string>
+    <string name="norm_data">Norm Data</string>
+    <string name="error_internet">Please check your connection</string>
+    <string name="user_created">User created</string>
+    <string name="save">Save</string>
+    <string name="profile_update_success">Profile updated successfuly</string>
+    <string name="Addiction_text">Close your eyes and relax. The more you relax the more you hear
+        sounds
+    </string>
+    <string name="go_to_payment_page">Open Payment Page</string>
+    <string name="payment_required_title">You must make payment to continue using the application.
+    </string>
+    <string name="payment_required_message">You can make the payment from the Auto Train Brain
+        website and continue to use the application.
+    </string>
+    <string name="mirrorneuron">Hyper</string>
+    <string name="thetabeta">Clever</string>
+    <string name="diagnose_Focus">Too much focus</string>
+    <string name="speaking">Speak</string>
+    <string name="reading">Read</string>
+    <string name="spatial">Spatial</string>
+
+    <string name="theta">Theta</string>
+    <string name="alpha">Alpha</string>
+    <string name="beta1">Beta1</string>
+    <string name="beta2">Beta2</string>
+    <string name="gamma">Gamma</string>
+    <string name="absolute">Absolute</string>
+    <string name="relative">Relative</string>
+    <string name="holistic">Holistic</string>
+    <string name="speak">Speak</string>
+    <string name="write">Write</string>
+    <string name="alphabet">Alphabet</string>
+    <string name="app_update_message">A new version of app is released. You can update and continue using your app.</string>
+    <string name="update">Update</string>
+    <string name="diagnosepd">Read, speak, clever, spatial protocol</string>
+
+    <string-array name="words_arrays">
+        <item>ne</item>
+        <item>ve</item>
+        <item>için</item>
+        <item>çok</item>
+        <item>ben</item>
+        <item>o</item>
+        <item>evet</item>
+        <item>var</item>
+        <item>ama</item>
+        <item>değil</item>
+        <item>hayır</item>
+        <item>sen</item>
+        <item>şey</item>
+        <item>daha</item>
+        <item>bana</item>
+        <item>kadar</item>
+        <item>seni</item>
+        <item>beni</item>
+        <item>iyi</item>
+        <item>tamam</item>
+        <item>onu</item>
+        <item>bunu</item>
+        <item>gibi</item>
+        <item>yok</item>
+        <item>benim</item>
+        <item>her</item>
+        <item>sana</item>
+        <item>sadece</item>
+        <item>neden</item>
+        <item>burada</item>
+        <item>senin</item>
+        <item>zaman</item>
+        <item>hiç</item>
+        <item>şimdi</item>
+        <item>nasıl</item>
+        <item>sonra</item>
+        <item>olduğunu</item>
+        <item>en</item>
+        <item>hadi</item>
+        <item>şu</item>
+        <item>öyle</item>
+        <item>güzel</item>
+        <item>biraz</item>
+        <item>önce</item>
+        <item>İyi</item>
+        <item>lütfen</item>
+        <item>ona</item>
+        <item>bak</item>
+        <item>böyle</item>
+        <item>oldu</item>
+        <item>hey</item>
+        <item>istiyorum</item>
+        <item>geri</item>
+        <item>onun</item>
+        <item>bile</item>
+        <item>gerçekten</item>
+        <item>artık</item>
+        <item>kim</item>
+        <item>eğer</item>
+        <item>bay</item>
+        <item>yani</item>
+        <item>çünkü</item>
+        <item>biliyorum</item>
+        <item>doğru</item>
+        <item>büyük</item>
+        <item>buraya</item>
+        <item>peki</item>
+        <item>başka</item>
+        <item>belki</item>
+        <item>olarak</item>
+        <item>tek</item>
+        <item>efendim</item>
+        <item>biri</item>
+        <item>haydi</item>
+        <item>olur</item>
+        <item>olacak</item>
+        <item>olan</item>
+        <item>adam</item>
+        <item>işte</item>
+        <item>merhaba</item>
+        <item>sanırım</item>
+        <item>teşekkürler</item>
+        <item>orada</item>
+        <item>nerede</item>
+        <item>biz</item>
+        <item>demek</item>
+        <item>hiçbir</item>
+        <item>yardım</item>
+        <item>ederim</item>
+        <item>bilmiyorum</item>
+        <item>gün</item>
+        <item>gece</item>
+        <item>fazla</item>
+        <item>bütün</item>
+        <item>harika</item>
+        <item>yeni</item>
+        <item>bunun</item>
+        <item>gel</item>
+        <item>biliyor</item>
+        <item>tüm</item>
+        <item>ile</item>
+        <item>kötü</item>
+        <item>oh</item>
+        <item>olsun</item>
+        <item>küçük</item>
+        <item>tam</item>
+        <item>ol</item>
+        <item>son</item>
+        <item>siz</item>
+        <item>şeyler</item>
+        <item>şeyi</item>
+        <item>bayan</item>
+        <item>hemen</item>
+        <item>sorun</item>
+        <item>size</item>
+        <item>üzgünüm</item>
+        <item>ver</item>
+        <item>onları</item>
+        <item>lanet</item>
+        <item>teşekkür</item>
+        <item>git</item>
+        <item>devam</item>
+        <item>kız</item>
+        <item>dostum</item>
+        <item>pekala</item>
+        <item>sizi</item>
+        <item>gerek</item>
+        <item>bizi</item>
+        <item>bize</item>
+        <item>dur</item>
+        <item>hakkında</item>
+        <item>buna</item>
+        <item>aynı</item>
+        <item>oluyor</item>
+        <item>kendi</item>
+        <item>anne</item>
+        <item>baba</item>
+        <item>diye</item>
+        <item>iş</item>
+        <item>kimse</item>
+        <item>izin</item>
+        <item>asla</item>
+        <item>hala</item>
+        <item>tabii</item>
+        <item>al</item>
+        <item>seninle</item>
+        <item>selam</item>
+        <item>olabilir</item>
+        <item>şunu</item>
+        <item>benimle</item>
+        <item>söyle</item>
+        <item>para</item>
+        <item>bizim</item>
+        <item>önemli</item>
+        <item>yoksa</item>
+        <item>içinde</item>
+        <item>herkes</item>
+        <item>ister</item>
+        <item>değilim</item>
+        <item>yüzden</item>
+        <item>gidelim</item>
+        <item>geldi</item>
+        <item>dakika</item>
+        <item>tekrar</item>
+        <item>bırak</item>
+        <item>vardı</item>
+        <item>biliyorsun</item>
+        <item>özür</item>
+        <item>işte</item>
+        <item>bakalım</item>
+        <item>istiyorsun</item>
+        <item>yapıyorsun</item>
+        <item>hep</item>
+        <item>onlar</item>
+        <item>buradan</item>
+        <item>geliyor</item>
+        <item>baba</item>
+        <item>anne</item>
+        <item>kardeş</item>
+        <item>anneanne</item>
+        <item>dede</item>
+        <item>deve</item>
+        <item>el</item>
+        <item>ele</item>
+        <item>Ali</item>
+        <item>ver</item>
+        <item>koş</item>
+        <item>zıpla</item>
+        <item>iyi</item>
+        <item>kötü</item>
+        <item>çirkin</item>
+        <item>güzel</item>
+        <item>doğru</item>
+        <item>yanlış</item>
+        <item>siyah</item>
+        <item>kara</item>
+        <item>beyaz</item>
+        <item>kırmızı</item>
+        <item>mavi</item>
+        <item>yeşil</item>
+        <item>sarı</item>
+        <item>mor</item>
+        <item>yaz</item>
+        <item>kış</item>
+        <item>ilkbahar</item>
+        <item>sonbahar</item>
+        <item>pazartesi</item>
+        <item>salı</item>
+        <item>çarşamba</item>
+        <item>perşembe</item>
+        <item>cuma</item>
+        <item>cumartesi</item>
+        <item>pazar</item>
+        <item>ocak</item>
+        <item>şubat</item>
+        <item>mart</item>
+        <item>nisan</item>
+        <item>mayıs</item>
+        <item>haziran</item>
+        <item>temmuz</item>
+        <item>ağustos</item>
+        <item>eylül</item>
+        <item>ekim</item>
+        <item>kasım</item>
+        <item>aralık</item>
+        <item>türk</item>
+        <item>bayrak</item>
+        <item>okul</item>
+        <item>sınıf</item>
+        <item>kitap</item>
+        <item>defter</item>
+        <item>kalem</item>
+        <item>oyuncak</item>
+        <item>kamyon</item>
+        <item>palyaço</item>
+        <item>bebek</item>
+        <item>köpek</item>
+        <item>kedi</item>
+        <item>fare</item>
+        <item>sincap</item>
+        <item>yılan</item>
+        <item>şempanze</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>pırasa</item>
+        <item>ıspanak</item>
+        <item>biber</item>
+        <item>domates</item>
+        <item>salatalık</item>
+        <item>marul</item>
+        <item>çilek</item>
+        <item>muz</item>
+        <item>erik</item>
+        <item>elma</item>
+        <item>portakal</item>
+        <item>armut</item>
+        <item>doktor</item>
+        <item>hemşire</item>
+        <item>mühendis</item>
+        <item>öğretmen</item>
+        <item>polis</item>
+        <item>gitar</item>
+        <item>piyano</item>
+        <item>kemençe</item>
+        <item>flüt</item>
+        <item>saz</item>
+        <item>tenis</item>
+        <item>basketbol</item>
+        <item>voleybol</item>
+        <item>yüzme</item>
+        <item>bardak</item>
+        <item>tabak</item>
+        <item>çatal</item>
+        <item>bıçak</item>
+        <item>tencere</item>
+        <item>çaydanlık</item>
+        <item>sabun</item>
+        <item>su</item>
+        <item>şampuan</item>
+        <item>bluz</item>
+        <item>etek</item>
+        <item>pantolon</item>
+        <item>çorap</item>
+        <item>palto</item>
+        <item>atkı</item>
+        <item>eldiven</item>
+        <item>şapka</item>
+        <item>çanta</item>
+        <item>omlet</item>
+        <item>yumurta</item>
+        <item>ekmek</item>
+        <item>pasta</item>
+        <item>makarna</item>
+        <item>et</item>
+        <item>zıpla</item>
+        <item>amca</item>
+        <item>teyze</item>
+        <item>dayı</item>
+        <item>inek</item>
+        <item>timsah</item>
+        <item>fil</item>
+        <item>aslan</item>
+        <item>panda</item>
+        <item>deve kuşu</item>
+        <item>kirpi</item>
+        <item>koyun</item>
+        <item>kartal</item>
+        <item>at</item>
+        <item>maymun</item>
+        <item>tavşan</item>
+        <item>gri</item>
+        <item>lacivert</item>
+        <item>turkuaz</item>
+        <item>lila</item>
+        <item>kahverengi</item>
+        <item>pembe</item>
+        <item>eflatun</item>
+        <item>turuncu</item>
+        <item>mandalina</item>
+        <item>muz</item>
+        <item>karpuz</item>
+        <item>kiraz</item>
+        <item>kivi</item>
+        <item>şeftali</item>
+        <item>limon</item>
+        <item>kavun</item>
+        <item>üzüm</item>
+        <item>greyfurt</item>
+        <item>bilgisayar</item>
+        <item>makas</item>
+        <item>okul çantası</item>
+        <item>silgi</item>
+        <item>hesap makinesi</item>
+        <item>kalemtraş</item>
+        <item>küre</item>
+        <item>cetvel</item>
+        <item>kalem kutusu</item>
+        <item>kara tahta</item>
+        <item>not defteri</item>
+        <item>mikroskop</item>
+        <item>sandalye masa</item>
+        <item>çizmek</item>
+        <item>uyumak</item>
+        <item>atlamak</item>
+        <item>içmek</item>
+        <item>ağlamak</item>
+        <item>pişirmek</item>
+        <item>koşmak</item>
+        <item>kesmek</item>
+        <item>yemek</item>
+        <item>oynamak</item>
+        <item>yazmak</item>
+        <item>yıkamak</item>
+        <item>okumak</item>
+        <item>yardım etmek</item>
+        <item>atletizm</item>
+        <item>sutopu</item>
+        <item>okçuluk</item>
+        <item>hentbol</item>
+        <item>badmington</item>
+        <item>futbol</item>
+        <item>golf</item>
+        <item>buz hokeyi</item>
+        <item>beyzbol</item>
+        <item>bovling</item>
+        <item>boks</item>
+        <item>bilardo</item>
+        <item>keman</item>
+        <item>akerdeon</item>
+        <item>armonika</item>
+        <item>arp</item>
+        <item>klarnet</item>
+        <item>trompet</item>
+        <item>ud</item>
+        <item>saksafon</item>
+        <item>tef</item>
+        <item>bateri</item>
+        <item>çello</item>
+        <item>gayda</item>
+        <item>ceket</item>
+        <item>kemer</item>
+        <item>çizme</item>
+        <item>kaban</item>
+        <item>çorap</item>
+        <item>kravat</item>
+        <item>atkı</item>
+        <item>terlik</item>
+        <item>kazak</item>
+        <item>ayakkabı</item>
+        <item>elbise</item>
+        <item>salata</item>
+        <item>balık</item>
+        <item>çikolata</item>
+        <item>çorba</item>
+        <item>süt</item>
+        <item>yoğurt</item>
+        <item>peynir</item>
+        <item>zeytin</item>
+        <item>pizza</item>
+        <item>sandviç</item>
+        <item>yumurta</item>
+        <item>dondurma</item>
+        <item>kepçe</item>
+        <item>kevgir</item>
+        <item>rende</item>
+        <item>kupa</item>
+        <item>buzdolabı</item>
+        <item>şişe</item>
+        <item>fırın</item>
+        <item>küvet</item>
+        <item>lavabo</item>
+        <item>saç fırçası</item>
+        <item>saç kurutma makinesi</item>
+        <item>jiet</item>
+        <item>diş fırçası</item>
+        <item>tuvalet kağıdı</item>
+        <item>diş macunu</item>
+        <item>duş</item>
+        <item>traş kremi</item>
+        <item>havlu</item>
+        <item>bornoz</item>
+        <item>tuvalet</item>
+        <item>patates</item>
+        <item>soğan</item>
+        <item>mantar</item>
+        <item>havuç</item>
+        <item>salatalık</item>
+        <item>lahana</item>
+        <item>kırmızı biber</item>
+        <item>yeşil biber</item>
+        <item>kabak</item>
+        <item>domates</item>
+        <item>patlıcan</item>
+        <item>ıspanak</item>
+        <item>mısır</item>
+    </string-array>
+
+    <string-array name="positives">
+        <item>Bravo doğru yaptın</item>
+        <item>Aferin</item>
+        <item>ne kadar zekisin</item>
+        <item>harikasın</item>
+        <item>akıllı çocuk</item>
+        <item>Doğru bildin</item>
+        <item>evet</item>
+        <item>tamam</item>
+        <item>böyle devam et</item>
+        <item>mükemmel</item>
+        <item>her şey yolunda</item>
+        <item>becerilerin çok yüksek</item>
+        <item>yeteneklerine güveniyorum</item>
+        <item>sen güçlüsün</item>
+        <item>sen başarılısın</item>
+        <item>bana ilham veriyorsun</item>
+        <item>yeterlisin ve fazlasısın</item>
+        <item>zorlukları aştın</item>
+        <item>mutluluk verici</item>
+        <item>müthiş bir potansiyelsin</item>
+    </string-array>
+
+    <string-array name="negatives">
+        <item>Maalesef doğru değil</item>
+        <item>yanlış ama olsun</item>
+        <item>bir dahakine inşallah</item>
+        <item>azıcık dikkat</item>
+        <item>dikkatin dağıldı</item>
+        <item>sonrakine devam</item>
+        <item>yanlış</item>
+        <item>zekisin ama dikkat etmelisin</item>
+        <item>hayır</item>
+        <item>puan alamadın</item>
+        <item>azıcık dikkat</item>
+        <item>uh</item>
+        <item>hayır tatlım</item>
+        <item>lol</item>
+        <item>yanlış canım</item>
+        <item>devam et tatlım</item>
+        <item>yanlış ama yine de seni seviyorum</item>
+        <item>hadi daha iyisini yapalım</item>
+        <item>ha gayret</item>
+        <item>mola mı verelim</item>
+    </string-array>
+
+    <string-array name="spell_arrays">
+        <item>le</item>
+        <item>el</item>
+        <item>al</item>
+        <item>ba</item>
+        <item>ca</item>
+        <item>de</item>
+        <item>ve</item>
+        <item>ne</item>
+        <item>leb</item>
+        <item>bi</item>
+        <item>bil</item>
+        <item>sen</item>
+        <item>şey</item>
+        <item>mer</item>
+        <item>ha</item>
+        <item>kar</item>
+        <item>şim</item>
+        <item>nim</item>
+        <item>na</item>
+        <item>sıl</item>
+        <item>sın</item>
+        <item>iyi</item>
+        <item>mi</item>
+        <item>sin</item>
+        <item>ka</item>
+        <item>pı</item>
+        <item>el</item>
+        <item>al</item>
+        <item>il</item>
+        <item>ek</item>
+        <item>ak</item>
+        <item>ik</item>
+        <item>en</item>
+        <item>an</item>
+        <item>in</item>
+        <item>le</item>
+        <item>la</item>
+        <item>li</item>
+        <item>ke</item>
+        <item>ka</item>
+        <item>ki</item>
+        <item>ne</item>
+        <item>na</item>
+        <item>ni</item>
+        <item>lel</item>
+        <item>lal</item>
+        <item>lil</item>
+        <item>lek</item>
+        <item>lak</item>
+        <item>lik</item>
+        <item>len</item>
+        <item>lan</item>
+        <item>lin</item>
+        <item>kel</item>
+        <item>kal</item>
+        <item>kil</item>
+        <item>kek</item>
+        <item>kak</item>
+        <item>kik</item>
+        <item>ken</item>
+        <item>kan</item>
+        <item>kin</item>
+        <item>nel</item>
+        <item>nal</item>
+        <item>nil</item>
+        <item>nek</item>
+        <item>nak</item>
+        <item>nik</item>
+        <item>nen</item>
+        <item>nan</item>
+        <item>nin</item>
+        <item>kalk</item>
+        <item>ilk</item>
+    </string-array>
+
+    <string name="tfe_dc_app_name" translatable="false">Auto Train Brain Rakam</string>
+    <string name="tfe_dc_clear_button_text" translatable="false">Temizle</string>
+    <string name="tfe_dc_prediction_text_placeholder" translatable="false">Bir rakam yazın</string>
+    <string name="tfe_dc_classification_error_message" translatable="false">Çizimi yorumlayamadım: %s</string>
+    <string name="spell">Spell</string>
+
+    //tunc and beyza
+
+    <string name="let_s_learn_my_family">Let\'s Learn My Family</string>
+    <string name="play">PLAY</string>
+    <string name="play_u"><u>PLAY</u></string>
+    <string name="title_activity_parent__page">Parent_Page</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="name">Name</string>
+    <string name="choose_photo">Choose Photo</string>
+    <string name="save_relative">Save Relative</string>
+    <string name="add_relative">Add Relative</string>
+    <string name="child">Child</string>
+    <string name="parent">Parent</string>
+    <string name="find_your_family">Find Your Family</string>
+    <string name="lets_learn_my_family">Let\'s Learn My Family</string>
+    <string name="learn">Learn</string>
+    <string name="learn_u"><u>LEARN</u></string>
+    <string name="lets_learn_my_familyy">Let\'s learn my family</string>
+    <string name="add_new_relative">add new relative</string>
+    <string name="check_relatives_list">Check relatives list</string>
+    <string name="result">Result</string>
+    <string name="f_n_sh">Fınısh</string>
+    <string name="congratulations">Congratulations!</string>
+    <string name="delete_relative">Delete Relatıve</string>
+    <string name="result_0_10">Result: 0 / 10</string>
+    <string name="family_tree">Family members</string>
+    <string name="update_photo">Update Photo</string>
+    <string name="set_relative">Set Relative</string>
+    <string name="learn_your_family">Learn Your Family</string>
+    <string name="parent_settings">Parent Settings</string>
+    <string name="reports">Reports</string>
+    <string name="relative_saved">Relative Saved</string>
+    <string name="relative_updated">Relative Updated</string>
+    <string name="at_least_4_relatives_needed">At least 4 relatives needed</string>
+    <string name="at_least_1_relatives_needed">At least 1 relatives needed</string>
+    <string name="fill_name">Please Enter a Name</string>
+    <string name="fill_photo">Please Upload a Photo</string>
+    <string name="member_deleted">Relative Deleted</string>
+    <string name="result_message1">You need to work harder!</string>
+    <string name="result_message2">You can do better!</string>
+    <string name="result_message3">You are doing great!</string>
+    <string name="result_message4">Congratulations!</string>
+    <string name="relative_degree">Relative degree</string>
+    <string name="emotion">Emotion</string>
+    <string name="set_relative_emotion">Set Family Emotion</string>
+    <string name="add_relative_emotion">Add Family Emotion</string>
+    <string name="relative_emotions">Family Emotions</string>
+    <string name="relative_emotions_list">Family Emotions</string>
+    <string name="find_the_emotion">Find Emotions</string>
+    <string name="learn_your_family_s_emotions">Learn Your Family\'s Emotions</string>
+    <string name="delete">delete</string>
+    <string name="who_is_it">Who is it?</string>
+
+    <!--Seray/Sezer-->
+
+    <string name="question">Can you choose the emotion in the photo from the options below?</string>
+    <string name="points">Points:</string>
+    <string name="highestScore">Highest Score:</string>
+    <string name="takenTime">Time Taken:</string>
+    <string name="choseEmotionCategory">Choose Emotion Category</string>
+    <string name="test">Tests</string>
+    <string name="learning">Learning</string>
+    <string name="humanFace">Human Face</string>
+    <string name="cartoonCharacters">Cartoon Characters</string>
+    <string name="emojis">Emojis</string>
+    <string name="nextquestion">Next</string>
+    <string name="happy">Happy</string>
+    <string name="sad">Sad</string>
+    <string name="excıted">Excited</string>
+    <string name="fearful">Fearful</string>
+    <string name="cheerful">Cheerful</string>
+    <string name="anxıous">Anxious</string>
+    <string name="angry">Angry</string>
+    <string name="bored">Bored</string>
+    <string name="dısgusted">Disgusted</string>
+    <string name="thınkıng">Thinking</string>
+    <string name="selected"> Selected</string>
+    <string name="exitTest">Exit Test ?</string>
+    <string name="exitTestLong">Do you want to exit test ?"</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="humanEmotionTest">Human Emotion Test</string>
+    <string name="cartoonEmotionTest">Cartoon Emotion Test</string>
+    <string name="smiley">Smiley</string>
+    <string name="surprised">Surprised</string>
+    <string name="scared">Scared</string>
+    <string name="upset">Upset</string>
+    <string name="normal">Normal</string>
+    <string name="furious">Furious</string>
+    <string name="emojiEmotionTest">Emoji Emotion Test</string>
+    <string name="shy">Shy</string>
+    <string name="grumpy">Grumpy</string>
+    <string name="sick">Sick</string>
+    <string name="gameOver">Game Over</string>
+    <string name="restartTest">Restart Test</string>
+    <string name="goHomePage">Homepage</string>
+    <string name="learningPage">Learning Page</string>
+    <string name="learningHappy">Happy Emotion</string>
+    <string name="nervous">Nervous</string>
+    <string name="hungry">Hungry</string>
+    <string name="alexHappy">Alex is feeling happy today.</string>
+    <string name="happyExp">To show happy, \nSmiling face \nBursting with joy \nEyes wide open and corners of mouth \nslightly raised.</string>
+    <string name="happyWhen">When will you happy?</string>
+    <string name="happyWhen2">When Playing in Park</string>
+    <string name="happyWhen3">With Family</string>
+    <string name="JackExcited">Jack is very excited now.</string>
+    <string name="excitedExp">To show excited, \nJumping for joy \nSmile a mile wide \nUnable to sit still \nCheering.</string>
+    <string name="excitedWhen">When will you feel excited?</string>
+    <string name="excitedWhen2">When I dance</string>
+    <string name="excitedWhen3">When I go to beach</string>
+    <string name="JimAngry">Jim is so angry now.</string>
+    <string name="angryExp">To show angry, \nRed face \nNostrils enlarged \nFrown eyebrows \nTeeth clenched and gritted.</string>
+    <string name="angryWhen">When will you feel angry?</string>
+    <string name="angryWhen2">When I lose the game</string>
+    <string name="angryWhen3">When nobody understands me</string>
+    <string name="MarkSad"> Mark is feeling sad today.</string>
+    <string name="sadExp">To show sadness, \nTears streaming down the face \nShoulders slumped \nThe corners of mouth go down \nTrembling voice.</string>
+    <string name="sadWhen">When will you feel sad?</string>
+    <string name="sadWhen2">When I am alone</string>
+    <string name="sadWhen3">When I cant go out because its raining</string>
+    <string name="JohnHungry"> John is so hungry right now.</string>
+    <string name="hungryExp">To show hungry, \nGrowling Stomach  \nFeeling weak  \nLow on energy \nUnable to focus.</string>
+    <string name="hungryWhen">When will you feel hungry?</string>
+    <string name="hungryWhen2">When I wake up early in the morning</string>
+    <string name="hungryWhen3">When I dont eat for a long time</string>
+    <string name="AliceNervous"> Alice is feeling nervous.</string>
+    <string name="nervousExp">To show nervous, \nSweaty palms or hands \nRasing heartbeat  \nBiting fingernails \nStuttering speech.</string>
+    <string name="nervousWhen">When will you feel nervous?</string>
+    <string name="nervousWhen2">When I give a speech in a crowded place</string>
+    <string name="nervousWhen3">When I dont understand something</string>
+    <string name="KatyShy"> Katy feels shy right now.</string>
+    <string name="shyExp">To show shyness, \nUncomfortably quiet \nLooking down  \nSpeaking softly \nBlushing.</string>
+    <string name="shyWhen">When will you feel shy?</string>
+    <string name="shyWhen2">When I talk to my friend</string>
+    <string name="shyWhen3">When people talking in groups</string>
+    <string name="EmilySick">Emily feels sick lately.</string>
+    <string name="sickExp">To show sickness, \nStuffy nose \nRed and sleepy eyes \nSneezing and coughing \nLooks tired.</string>
+    <string name="sickWhen">When will you feel sick?</string>
+    <string name="sickWhen2">When I feel dizzy</string>
+    <string name="sickWhen3">When I feel stomachache</string>
+    <string name="EmmaBored">Emma is feeling bored now.</string>
+    <string name="boredExp">To show boredness, \nCouldnt keep from yawning \nBlank stare \nEyes squint \nEyes dive far</string>
+    <string name="boredWhen">When will you feel bored?</string>
+    <string name="boredWhen2">When I play alone</string>
+    <string name="boredWhen3">When I eat alone</string>
+
+    <!--Kıvanç-->
+
+    <string name="hello">Hello</string>
+    <string name="h_a_y">How are you?</string>
+    <string name="w_i_y_n">What is your name?</string>
+    <string name="m_n_i">My name is..</string>
+    <string name="fine_thank">Fine, thank you</string>
+    <string name="goodBye">Good bye</string>
+    <string name="soci_words">Socialize</string>
+    <string name="family_member_recognition">Family Faces</string>
+    <string name="face_emotion">Emotions</string>
+    <string name="match">Choose the correct one</string>
+    <string name="special">Read</string>
+    <string name="family_emotion">Family Emotions</string>
+    <string name="choose_game">Enter values</string>
+
+
+
+</resources>

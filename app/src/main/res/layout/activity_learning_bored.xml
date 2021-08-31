@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.LearningBored">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    tools:ignore="MissingConstraints">
+    <TextView
+        android:id="@+id/title_bored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:text="@string/bored"
+        tools:ignore="MissingConstraints"
+        android:textColor="@color/colorPrimary"
+        android:paddingTop="@dimen/margin_xsmall"
+        android:gravity="center">
+
+    </TextView>
+</LinearLayout>
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="407dp"
+        android:layout_height="230dp"
+        android:layout_marginTop="35dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/boredcartoon"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/q8"
+             />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/EmmaBored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/EmmaBored"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        android:textColor="@color/colorPrimary"></TextView>
+
+
+    <TextView
+        android:id="@+id/boredWhen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="9dp"
+        android:text="@string/boredWhen"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/EmmaBored"
+        android:textColor="@color/colorPrimary"></TextView>
+
+    <HorizontalScrollView
+        android:id="@+id/scroll"
+        android:visibility="visible"
+        android:layout_width="409dp"
+        android:layout_height="260dp"
+        android:fadeScrollbars="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/boredWhen">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="400dp"
+                    android:layout_height="200dp"
+                    app:srcCompat="@drawable/boredboy"></ImageView>
+
+                <TextView
+                    android:id="@+id/tv3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/boredWhen2"
+                    android:textSize="20sp"
+                    android:textColor="@color/blue3"></TextView>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="400dp"
+                    android:layout_height="200dp"
+                    app:srcCompat="@drawable/boredboy2"></ImageView>
+
+                <TextView
+                    android:id="@+id/tv4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/boredWhen3"
+                    android:textSize="20sp"
+                    android:textColor="@color/blue3"></TextView>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

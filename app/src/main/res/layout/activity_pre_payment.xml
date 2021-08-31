@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".activity.PrePaymentActivity">
+
+    <ImageView
+            android:id="@+id/logoImg"
+            android:layout_width="184dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:adjustViewBounds="true"
+            android:layout_marginBottom="@dimen/margin_large"
+            android:scaleType="centerInside"
+            tools:src="@drawable/logo_transparent"/>
+
+    <Button
+            android:id="@+id/directBtn"
+            style="@style/Base.Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/text_input_height"
+            android:layout_marginLeft="@dimen/margin_xlarge"
+            android:layout_marginRight="@dimen/margin_xlarge"
+            android:layout_marginBottom="@dimen/margin_large"
+            android:layout_above="@+id/logoImg"
+            android:backgroundTint="@color/orange"
+            android:paddingBottom="@dimen/margin_xxsmall"
+            android:paddingTop="@dimen/margin_xxsmall"
+            android:text="@string/go_to_payment_page"
+            android:textColor="@color/white"
+            android:textSize="16sp"/>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_large"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/payment_required_title"
+                android:textColor="@color/base_text_color"
+                android:gravity="center_horizontal"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/payment_required_message"
+                android:textColor="@color/base_text_color"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="@dimen/margin_large"
+                android:textSize="16sp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

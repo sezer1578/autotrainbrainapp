@@ -1,0 +1,83 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#49478c</item>
+        <item name="colorPrimaryDark">#18205e</item>
+        <item name="colorAccent">#74c0c2</item>
+        <item name="android:listSelector">@drawable/selector_base</item>
+        <item name="android:windowBackground">@color/white</item>
+    </style>
+
+    <!-- Alternative application theme. -->
+    <style name="AppThemeNoAction" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#49478c</item>
+        <item name="colorPrimaryDark">#18205e</item>
+        <item name="colorAccent">#74c0c2</item>
+        <item name="android:listSelector">@drawable/selector_base</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:textColorSecondary">@android:color/white</item>
+    </style>
+
+    <!-- Alternative application theme. -->
+    <style name="AppThemeRed" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#49478c</item>
+        <item name="colorPrimaryDark">#18205e</item>
+        <item name="colorAccent">#74c0c2</item>
+        <item name="android:listSelector">@drawable/selector_base</item>
+        <item name="android:windowBackground">@color/white</item>
+    </style>
+
+    <!-- Alternative application theme. -->
+    <style name="AppThemeGreen" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#49478c</item>
+        <item name="colorPrimaryDark">#18205e</item>
+        <item name="colorAccent">#74c0c2</item>
+        <item name="android:listSelector">@drawable/selector_base</item>
+        <item name="android:windowBackground">@color/white</item>
+    </style>
+
+    <!-- Alternative application theme. -->
+    <style name="AppThemeGreenNoAction" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#49478c</item>
+        <item name="colorPrimaryDark">#18205e</item>
+        <item name="colorAccent">#74c0c2</item>
+        <item name="android:listSelector">@drawable/selector_base</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:textColorSecondary">@android:color/white</item>
+    </style>
+
+    <!-- Alternative application theme. -->
+    <style name="AppThemeOrange" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#49478c</item>
+        <item name="colorPrimaryDark">#18205e</item>
+        <item name="colorAccent">#74c0c2</item>
+        <item name="android:listSelector">@drawable/selector_base</item>
+        <item name="android:windowBackground">@color/white</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="TextLabelPrimary" parent="TextAppearance.AppCompat">
+        <!-- Hint color and label color in FALSE state -->
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColorHint">@color/hint_text_color</item>
+        <item name="android:textColor">@color/base_text_color</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+        <item name="colorControlNormal">@color/hint_text_color</item>
+        <item name="colorControlActivated">@color/colorPrimary</item>
+    </style>
+</resources>

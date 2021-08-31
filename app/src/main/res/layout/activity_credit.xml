@@ -1,0 +1,124 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/window_background"
+    android:orientation="vertical"
+    tools:context=".activity.LoginActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/margin_medium">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/margin_input_horizontal"
+            android:paddingRight="@dimen/margin_input_horizontal">
+
+            <TextView
+                android:id="@+id/theta2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/procure"
+                android:textColor="@color/black" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/nameLayout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/text_input_height"
+                android:layout_marginTop="@dimen/margin_large"
+                android:theme="@style/TextLabelPrimary">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/nameEdt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/hint_name_surname"
+                    android:inputType="textCapWords"
+                    android:singleLine="true" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/phoneLayout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/text_input_height"
+                android:layout_marginTop="@dimen/margin_xsmall"
+                android:theme="@style/TextLabelPrimary">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/phoneEdt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/hint_phone"
+                    android:inputType="phone"
+                    android:maxLength="11"
+                    android:singleLine="true" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/mailLayout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/text_input_height"
+                android:layout_marginTop="@dimen/margin_xsmall"
+                android:theme="@style/TextLabelPrimary">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/mailEdt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/hint_mail"
+                    android:inputType="textEmailAddress"
+                    android:singleLine="true" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/addressLayout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/text_input_height"
+                android:layout_marginTop="@dimen/margin_xsmall"
+                android:theme="@style/TextLabelPrimary">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/addressEdt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/hint_address"
+                    android:singleLine="true" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <Button
+                android:id="@+id/confirmBtn"
+                style="@style/Base.Widget.AppCompat.Button.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/text_input_height"
+                android:layout_marginLeft="@dimen/margin_xlarge"
+                android:layout_marginRight="@dimen/margin_xlarge"
+                android:layout_marginTop="@dimen/margin_large"
+                android:backgroundTint="@color/orange"
+                android:paddingBottom="@dimen/margin_xxsmall"
+                android:paddingTop="@dimen/margin_xxsmall"
+                android:text="@string/confirm"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/logoImg"
+                android:layout_width="184dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/margin_medium"
+                android:adjustViewBounds="true"
+                android:scaleType="centerInside" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

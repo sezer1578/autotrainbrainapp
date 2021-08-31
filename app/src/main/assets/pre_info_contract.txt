@@ -1,0 +1,81 @@
+<p>&Ouml;N BILGILENDIRME FORMU</p>
+
+<p>1.KONU</p>
+
+<p>Isbu Satis S&ouml;zlesmesi &Ouml;n Bilgi Formu&rsquo;nun konusu, SATICI' nin, SIPARIS VEREN/ALICI' ya satisini yaptigi, asagida nitelikleri ve satis fiyati belirtilen &uuml;r&uuml;n/&uuml;r&uuml;nlerin satisi ve teslimi ile ilgili olarak 6502 sayili T&uuml;keticilerin Korunmasi Hakkindaki Kanun - Mesafeli S&ouml;zlesmeler Y&ouml;netmeligi (RG:27.11.2014/29188) h&uuml;k&uuml;mleri geregince taraflarin hak ve y&uuml;k&uuml;ml&uuml;l&uuml;klerini kapsamaktadir. Is bu &ouml;n bilgilendirme formunu kabul etmekle ALICI, s&ouml;zlesme konusu siparisi onayladigi takdirde siparis konusu bedeli ve varsa kargo &uuml;creti, vergi gibi belirtilen ek &uuml;cretleri &ouml;deme y&uuml;k&uuml;ml&uuml;l&uuml;g&uuml; altina girecegini ve bu konuda bilgilendirildigini pesinen kabul eder.</p>
+
+<p>2. SATICI BILGILERI</p>
+
+<p>&Uuml;nvani: HMS Health Mobile Software Saglik Mobil Yazilim ve Egitim A.S.<br />
+Adresi: Yeni Mah. Asikveysel Bulvari Erciyes &Uuml;niversitesi <br />
+Teknoloji Gelistirme B&ouml;lgesi Idare Binasi ve Kulu&ccedil;ka Merkezi &ndash; <br />
+4.Binasi Dis Kapi No:67/A I&ccedil; Kapi No:12 38039 Melikgazi Kayseri<br />
+Telefon: 0-532- 326 55 82<br />
+Eposta: gunet.eroglu@healthmobilesoftware.com</p>
+
+<p>3. ALICI BILGILERI(Bundan sonra ALICI olarak anilacaktir.)</p>
+
+<p>Teslim edilecek kisi: <NAME-SURNAME></p>
+
+<p>
+4. SIPARIS VEREN BILGILERI(Bundan sonra SIPARIS VEREN olarak anilacaktir.)</p>
+
+<p>Adi Soyadi: <NAME-SURNAME><br />
+Adresi: <ADDRESS><br />
+Eposta/Kullanici adi: <EMAIL> / <USERNAME></p>
+
+<p>5. S&Ouml;ZLESME KONUSU &Uuml;R&Uuml;N/&Uuml;R&Uuml;NLER BILGILERI</p>
+
+<p>5.1&Uuml;r&uuml;nlerin / Hizmetin temel &ouml;zellikleri SATICI&rsquo;ya ait internet sitesinde yer almaktadir. &Uuml;r&uuml;n&uuml;n temel &ouml;zelliklerini kampanya s&uuml;resince inceleyebilirsiniz. Kampanya tarihine kadar ge&ccedil;erlidir.</p>
+
+<p>5.2Listelenen ve sitede ilan edilen fiyatlar satis fiyatidir. Ilan edilen fiyatlar ve vaatler g&uuml;ncelleme yapilana ve degistirilene kadar ge&ccedil;erlidir. S&uuml;reli olarak ilan edilen fiyatlar ise belirtilen s&uuml;re sonuna kadar ge&ccedil;erlidir.</p>
+
+<p>5.3S&ouml;zlesme konusu mal ya da hizmetin t&uuml;m vergiler d&acirc;hil satis fiyati asagidaki tabloda g&ouml;sterilmistir.</p>
+
+<p> 1 yillik AutoTrainBrain yazilimi aboneligi (1200 TL + %18 KDV)</p>
+
+<p> &Ouml;deme Sekli: Kredi karti</p>
+
+<p>6. GENEL H&Uuml;K&Uuml;MLER</p>
+
+<p>6.1.ALICI, SATICI&rsquo;ya ait internet sitesinde s&ouml;zlesme konusu &uuml;r&uuml;n&uuml;n temel nitelikleri, satis fiyati ve &ouml;deme sekli ile teslimata iliskin &ouml;n bilgileri okuyup, bilgi sahibi oldugunu, elektronik ortamda gerekli teyidi verdigini kabul, beyan ve taahh&uuml;t eder. ALICININ; &Ouml;n Bilgilendirmeyi elektronik ortamda teyit etmesi, mesafeli satis s&ouml;zlesmesinin kurulmasindan evvel, SATICI tarafindan ALICI' ya verilmesi gereken adresi, siparisi verilen &uuml;r&uuml;nlere ait temel &ouml;zellikleri, &uuml;r&uuml;nlerin vergiler d&acirc;hil fiyatini, &ouml;deme ve teslimat bilgilerini de dogru ve eksiksiz olarak edindigini kabul, beyan ve taahh&uuml;t eder.</p>
+
+<p>6.2.S&ouml;zlesme konusu her bir &uuml;r&uuml;n, satisi takiben aboneligin online olarak baslamasi ile ALICI'nin kullanimina sunulur.</p>
+
+<p>6.3.SATICI, s&ouml;zlesme konusu &uuml;r&uuml;n&uuml; eksiksiz, kullanim kilavuzlari ile teslim etmeyi, her t&uuml;rl&uuml; ayiptan ar&icirc; olarak yasal mevzuat gereklerine saglam, standartlara uygun bir sekilde isin geregi olan bilgi ve belgeler ile isi dogruluk ve d&uuml;r&uuml;stl&uuml;k esaslari d&acirc;hilinde ifa etmeyi, hizmet kalitesini koruyup y&uuml;kseltmeyi, isin ifasi sirasinda gerekli dikkat ve &ouml;zeni g&ouml;stermeyi, ihtiyat ve &ouml;ng&ouml;r&uuml; ile hareket etmeyi kabul, beyan ve taahh&uuml;t eder.</p>
+
+<p>6.4.SATICI, siparis konusu &uuml;r&uuml;n veya hizmetin yerine getirilmesinin imk&acirc;nsizlasmasi halinde s&ouml;zlesme konusu y&uuml;k&uuml;ml&uuml;l&uuml;klerini yerine getiremezse, bu durumu, &ouml;grendigi tarihten itibaren 3 g&uuml;n i&ccedil;inde yazili olarak t&uuml;keticiye bildirecegini, 14 g&uuml;nl&uuml;k s&uuml;re i&ccedil;inde toplam bedeli ALICI&rsquo;ya iade edecegini kabul, beyan ve taahh&uuml;t eder.</p>
+
+<p>6.5.ALICI, s&ouml;zlesme konusu &uuml;r&uuml;n&uuml;n teslimati i&ccedil;in isbu &Ouml;n Bilgilendirme Formunu elektronik ortamda teyit edecegini, herhangi bir nedenle s&ouml;zlesme konusu &uuml;r&uuml;n bedelinin &ouml;denmemesi ve/veya banka kayitlarinda iptal edilmesi halinde, SATICI&rsquo; nin s&ouml;zlesme konusu &uuml;r&uuml;n&uuml; teslim y&uuml;k&uuml;ml&uuml;l&uuml;g&uuml;n&uuml;n sona erecegini kabul, beyan ve taahh&uuml;t eder.</p>
+
+<p>6.6.ALICI, S&ouml;zlesme konusu &uuml;r&uuml;n&uuml;n ALICI veya ALICI&rsquo;nin g&ouml;sterdigi adresteki kisi ve/veya kurulusa tesliminden sonra ALICI'ya ait kredi kartinin yetkisiz kisilerce haksiz kullanilmasi sonucunda s&ouml;zlesme konusu &uuml;r&uuml;n bedelinin ilgili banka veya finans kurulusu tarafindan SATICI'ya &ouml;denmemesi halinde, ALICI S&ouml;zlesme konusu &uuml;r&uuml;n&uuml; 3 g&uuml;n i&ccedil;erisinde SATICI&rsquo;ya iade edecegini kabul, beyan ve taahh&uuml;t eder.</p>
+
+<p>6.7.SATICI, taraflarin iradesi disinda gelisen, &ouml;nceden &ouml;ng&ouml;r&uuml;lemeyen ve taraflarin bor&ccedil;larini yerine getirmesini engelleyici ve/veya geciktirici hallerin olusmasi gibi m&uuml;cbir sebepler halleri nedeni ile s&ouml;zlesme konusu &uuml;r&uuml;n&uuml; s&uuml;resi i&ccedil;inde teslim edemez ise, durumu ALICI' ya bildirecegini kabul, beyan ve taahh&uuml;t eder. ALICI da siparisin iptal edilmesini, s&ouml;zlesme konusu &uuml;r&uuml;n&uuml;n varsa emsali ile degistirilmesini ve/veya teslimat s&uuml;resinin engelleyici durumun ortadan kalkmasina kadar ertelenmesini SATICI&rsquo; dan talep etme hakkina haizdir. ALICI tarafindan siparisin iptal edilmesi halinde ALICI&rsquo; nin nakit ile yaptigi &ouml;demelerde, &uuml;r&uuml;n tutari 14 g&uuml;n i&ccedil;inde kendisine nakden ve defaten &ouml;denir. ALICI&rsquo; nin kredi karti ile yaptigi &ouml;demelerde ise, &uuml;r&uuml;n tutari, siparisin ALICI tarafindan iptal edilmesinden sonra 14 g&uuml;n i&ccedil;erisinde ilgili bankaya iade edilir. ALICI, SATICI tarafindan kredi kartina iade edilen tutarin banka tarafindan ALICI hesabina yansitilmasina iliskin ortalama s&uuml;recin 2 ile 3 haftayi bulabilecegini, <br />
+bu tutarin bankaya iadesinden sonra ALICI&rsquo; nin hesaplarina yansimasi halinin tamamen banka islem s&uuml;reci ile ilgili oldugundan, ALICI, olasi gecikmeler i&ccedil;in SATICI&rsquo; yi sorumlu tutamayacagini kabul, beyan ve taahh&uuml;t eder.</p>
+
+<p>7. FATURA BILGILERI</p>
+
+<p><NAME-SURNAME><br />
+<ADDRESS><br />
+<EMAIL> / <USERNAME><br />
+ </p>
+
+<p>8. CAYMA HAKKI</p>
+
+<p>8.1.ALICI; mal satisina iliskin mesafeli s&ouml;zlesmelerde, &uuml;r&uuml;n&uuml;n kendisine veya g&ouml;sterdigi adresteki kisi/kurulusa teslim tarihinden itibaren 14 (on d&ouml;rt) g&uuml;n i&ccedil;erisinde, SATICI&rsquo;ya bildirmek sartiyla hi&ccedil;bir hukuki ve cezai sorumluluk &uuml;stlenmeksizin ve hi&ccedil;bir gerek&ccedil;e g&ouml;stermeksizin mali reddederek s&ouml;zlesmeden cayma hakkini kullanabilir. Hizmet sunumuna iliskin mesafeli s&ouml;zlesmelerde ise, bu s&uuml;re s&ouml;zlesmenin imzalandigi tarihten itibaren baslar. Cayma hakki s&uuml;resi sona ermeden &ouml;nce, t&uuml;keticinin onayi ile hizmetin ifasina baslanan hizmet s&ouml;zlesmelerinde cayma hakki kullanilamaz. Cayma hakkinin kullanimindan kaynaklanan masraflar SATICI&rsquo; ya aittir.ALICI, is bu s&ouml;zlesmeyi kabul etmekle, cayma hakki konusunda bilgilendirildigini pesinen kabul eder.</p>
+
+<p>8.2.Cayma hakkinin kullanilmasi i&ccedil;in 14 (ond&ouml;rt) g&uuml;nl&uuml;k s&uuml;re i&ccedil;inde SATICI' ya iadeli taahh&uuml;tl&uuml; posta, faks veya eposta ile yazili bildirimde bulunulmasi ve &uuml;r&uuml;n&uuml;n isbu s&ouml;zlesmede d&uuml;zenlenen d&uuml;zenlenen &quot;Cayma Hakki Kullanilamayacak &Uuml;r&uuml;nler&quot; h&uuml;k&uuml;mleri &ccedil;er&ccedil;evesinde kullanilmamis olmasi sarttir. Bu hakkin kullanilmasi halinde,</p>
+
+<p>8.2.1. kisiye veya ALICI&rsquo; ya teslim edilen &uuml;r&uuml;n&uuml;n faturasi, (Iade edilmek istenen &uuml;r&uuml;n&uuml;n faturasi kurumsal ise, geri iade ederken kurumun d&uuml;zenlemis oldugu iade faturasi ile birlikte g&ouml;nderilmesi gerekmektedir. Faturasi kurumlar adina d&uuml;zenlenen siparis iadeleri IADE FATURASI kesilmedigi takdirde tamamlanamayacaktir.)</p>
+
+<p>8.2.2.Iade formu,</p>
+
+<p>8.2.3.Iade edilecek &uuml;r&uuml;nlerin eksiksiz ve hasarsiz olarak teslim edilmesi gerekmektedir.</p>
+
+<p>8.2.4.SATICI, cayma bildiriminin kendisine ulasmasindan itibaren en ge&ccedil; 10 g&uuml;nl&uuml;k s&uuml;re i&ccedil;erisinde toplam bedeli ve ALICI&rsquo; yi bor&ccedil; altina sokan belgeleri ALICI&rsquo; ya iade etmek ve 20 g&uuml;nl&uuml;k s&uuml;re i&ccedil;erisinde mali iade almakla y&uuml;k&uuml;ml&uuml;d&uuml;r.</p>
+
+<p>Isbu S&ouml;zlesme ticari ama&ccedil;larla yapilmaktadir.</p>
+
+<p>SATICI: HMS Health Mobile Software Saglik Mobil Yazilim ve Egitim A.S.<br />
+ALICI: <NAME-SURNAME><br />
+TARIH: <DATE></p>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.result">
+
+    <LinearLayout
+        android:layout_width="387dp"
+        android:layout_height="566dp"
+        android:layout_marginLeft="@dimen/margin_large"
+        android:layout_marginTop="@dimen/margin_small"
+        android:layout_marginRight="@dimen/margin_large"
+        android:layout_marginBottom="@dimen/margin_medium"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_xxlarge">
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/resultFeedBack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingRight="15dp"
+            android:text="@string/congratulations"
+            android:textColor="@color/colorPrimary"
+            android:textSize="36sp" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_large">
+        </RelativeLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/takenTime"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp" />
+
+        <Chronometer
+            android:id="@+id/timetaken"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:textSize="40sp"
+            />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_large">
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/resultNumber"
+            android:layout_width="356dp"
+            android:layout_height="84dp"
+            android:gravity="center"
+            android:text="@string/result_0_10"
+            android:textColor="@color/colorPrimary"
+            android:textSize="36sp" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_large">
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/finish_button"
+            android:layout_width="match_parent"
+            android:layout_height="89dp"
+            android:text="@string/f_n_sh"
+            android:textColor="@color/white"
+            app:backgroundTint="@color/orange"
+            android:background="@drawable/button_background"/>
+    </LinearLayout>
+</RelativeLayout>

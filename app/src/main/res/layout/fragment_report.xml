@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/contentLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="16dp"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:paddingTop="16dp"
+                android:text="@string/brain_left"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/dim_lighter_gray" />
+
+            <LinearLayout
+                android:id="@+id/leftLayout1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="8dp"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp"
+                android:paddingTop="8dp"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/leftKeyTxt1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="@android:style/TextAppearance"
+                    android:textColor="@color/black"
+                    tools:text="AF4" />
+
+                <TextView
+                    android:id="@+id/leftValueTxt1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    tools:text="0.02, 0.03, 0.04, 0.05" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/leftLayout2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/dim_lighter_gray"
+                android:orientation="horizontal"
+                android:paddingBottom="8dp"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp"
+                android:paddingTop="8dp"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/leftKeyTxt2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="@android:style/TextAppearance"
+                    android:textColor="@color/black"
+                    tools:text="AF4" />
+
+                <TextView
+                    android:id="@+id/leftValueTxt2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    tools:text="0.02, 0.03, 0.04, 0.05" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/leftLayout3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="8dp"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp"
+                android:paddingTop="8dp"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/leftKeyTxt3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="@android:style/TextAppearance"
+                    android:textColor="@color/black"
+                    tools:text="AF4" />
+
+                <TextView
+                    android:id="@+id/leftValueTxt3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    tools:text="0.02, 0.03, 0.04, 0.05" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/leftLayout4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/dim_lighter_gray"
+                android:orientation="horizontal"
+                android:paddingBottom="8dp"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp"
+                android:paddingTop="8dp"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/leftKeyTxt4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="@android:style/TextAppearance"
+                    android:textColor="@color/black"
+                    tools:text="AF4" />
+
+                <TextView
+                    android:id="@+id/leftValueTxt4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    tools:text="0.02, 0.03, 0.04, 0.05" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/leftLayout5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="8dp"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp"
+                android:paddingTop="8dp"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/leftKeyTxt5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="@android:style/TextAppearance"
+                    android:textColor="@color/black"
+                    tools:text="AF4" />
+
+                <TextView
+                    android:id="@+id/leftValueTxt5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    tools:text="0.02, 0.03, 0.04, 0.05" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/leftLayout6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/dim_lighter_gray"
+                android:orientation="horizontal"
+                android:paddingBottom="8dp"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp"
+                android:paddingTop="8dp"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/leftKeyTxt6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="@android:style/TextAppearance"
+                    android:textColor="@color/black"
+                    tools:text="AF4" />
+
+                <TextView
+                    android:id="@+id/leftValueTxt6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    tools:text="0.02, 0.03, 0.04, 0.05" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/leftLayout7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="8dp"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp"
+                android:paddingTop="8dp"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/leftKeyTxt7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="@android:style/TextAppearance"
+                    android:textColor="@color/black"
+                    tools:text="AF4" />
+
+                <TextView
+                    android:id="@+id/leftValueTxt7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    tools:text="0.02, 0.03, 0.04, 0.05" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/black" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="16dp"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:paddingTop="16dp"
+                android:text="@string/brain_right"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/dim_lighter_gray" />
+
+            <LinearLayout
+                android:id="@+id/rightLayout1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="8dp"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp"
+                android:paddingTop="8dp"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/rightKeyTxt1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="@android:style/TextAppearance"
+                    android:textColor="@color/black"
+                    tools:text="AF4" />
+
+                <TextView
+                    android:id="@+id/rightValueTxt1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    tools:text="0.02, 0.03, 0.04, 0.05" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/rightLayout2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/dim_lighter_gray"
+                android:orientation="horizontal"
+                android:paddingBottom="8dp"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp"
+                android:paddingTop="8dp"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/rightKeyTxt2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="@android:style/TextAppearance"
+                    android:textColor="@color/black"
+                    tools:text="AF4" />
+
+                <TextView
+                    android:id="@+id/rightValueTxt2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    tools:text="0.02, 0.03, 0.04, 0.05" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/rightLayout3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="8dp"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp"
+                android:paddingTop="8dp"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/rightKeyTxt3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="@android:style/TextAppearance"
+                    android:textColor="@color/black"
+                    tools:text="AF4" />
+
+                <TextView
+                    android:id="@+id/rightValueTxt3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    tools:text="0.02, 0.03, 0.04, 0.05" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/rightLayout4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/dim_lighter_gray"
+                android:orientation="horizontal"
+                android:paddingBottom="8dp"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp"
+                android:paddingTop="8dp"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/rightKeyTxt4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="@android:style/TextAppearance"
+                    android:textColor="@color/black"
+                    tools:text="AF4" />
+
+                <TextView
+                    android:id="@+id/rightValueTxt4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    tools:text="0.02, 0.03, 0.04, 0.05" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/rightLayout5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="8dp"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp"
+                android:paddingTop="8dp"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/rightKeyTxt5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="@android:style/TextAppearance"
+                    android:textColor="@color/black"
+                    tools:text="AF4" />
+
+                <TextView
+                    android:id="@+id/rightValueTxt5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    tools:text="0.02, 0.03, 0.04, 0.05" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/rightLayout6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/dim_lighter_gray"
+                android:orientation="horizontal"
+                android:paddingBottom="8dp"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp"
+                android:paddingTop="8dp"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/rightKeyTxt6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="@android:style/TextAppearance"
+                    android:textColor="@color/black"
+                    tools:text="AF4" />
+
+                <TextView
+                    android:id="@+id/rightValueTxt6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    tools:text="0.02, 0.03, 0.04, 0.05" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/rightLayout7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="8dp"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp"
+                android:paddingTop="8dp"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/rightKeyTxt7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="@android:style/TextAppearance"
+                    android:textColor="@color/black"
+                    tools:text="AF4" />
+
+                <TextView
+                    android:id="@+id/rightValueTxt7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    tools:text="0.02, 0.03, 0.04, 0.05" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

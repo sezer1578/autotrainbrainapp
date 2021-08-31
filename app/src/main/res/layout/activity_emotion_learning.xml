@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".activity.EmotionLearning">
+
+<!--    <include-->
+<!--        android:id="@+id/toolbar"-->
+<!--        layout="@layout/toolbar"-->
+<!--        />-->
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_marginRight="10dp">
+                    <ImageView
+                        android:id="@+id/happyemoji"
+                        android:layout_width="135dp"
+                        android:layout_height="135dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/happyemoji"></ImageView>
+
+                    <TextView
+                        android:id="@+id/happyemojitext"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/happy"
+                        android:textSize="22sp"></TextView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center">
+                    <ImageView
+                        android:id="@+id/excitedEmoji"
+                        android:layout_width="135dp"
+                        android:layout_height="135dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/excitedemoji"></ImageView>
+
+                    <TextView
+                        android:id="@+id/excitedEmojitext"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/excıted"
+                        android:textSize="22sp"></TextView>
+                </LinearLayout>
+
+                </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_marginRight="10dp">
+                <ImageView
+                    android:id="@+id/sademoji"
+                    android:layout_width="135dp"
+                    android:layout_height="135dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/sademoji"></ImageView>
+
+                    <TextView
+                        android:id="@+id/sademojitext"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sad"
+                        android:textSize="22sp"></TextView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center">
+                <ImageView
+                    android:id="@+id/hungryemoji"
+                    android:layout_width="135dp"
+                    android:layout_height="135dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/hungryemoji"></ImageView>
+
+                    <TextView
+                        android:id="@+id/hungryemojitext"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/hungry"
+                        android:textSize="22sp"></TextView>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp"
+                android:gravity="center">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_marginRight="10dp">
+                <ImageView
+                    android:id="@+id/shyemoji"
+                    android:layout_width="135dp"
+                    android:layout_height="135dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/shyemoji"></ImageView>
+
+                    <TextView
+                        android:id="@+id/shyemojitext"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/shy"
+                        android:textSize="22sp"></TextView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center">
+                <ImageView
+                    android:id="@+id/sickemoji"
+                    android:layout_width="135dp"
+                    android:layout_height="135dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/sickemoji"></ImageView>
+
+                    <TextView
+                        android:id="@+id/sickemojitext"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sick"
+                        android:textSize="22sp"></TextView>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginTop="20dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_marginRight="10dp">
+
+                    <ImageView
+                        android:id="@+id/angryemoji"
+                        android:layout_width="135dp"
+                        android:layout_height="135dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/angryemoji"></ImageView>
+
+                    <TextView
+                        android:id="@+id/angryemojitext"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/angry"
+                        android:textSize="22sp"></TextView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/nervousemoji"
+                        android:layout_width="135dp"
+                        android:layout_height="135dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/nervousemoji"></ImageView>
+
+                    <TextView
+                        android:id="@+id/nervousemojitext"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/nervous"
+                        android:textSize="22sp"></TextView>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginTop="20dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center">
+                    <ImageView
+                        android:id="@+id/boredemoji"
+                        android:layout_width="135dp"
+                        android:layout_height="135dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/boredemoji"></ImageView>
+
+                    <TextView
+                        android:id="@+id/boredemojitext"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/bored"
+                        android:textSize="22sp"></TextView>
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

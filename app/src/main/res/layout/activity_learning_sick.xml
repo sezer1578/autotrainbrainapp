@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.LearningSick">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        tools:ignore="MissingConstraints">
+    <TextView
+        android:id="@+id/title_sick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:text="@string/sick"
+        android:gravity="center"
+        tools:ignore="MissingConstraints"
+        android:textColor="@color/colorPrimary"
+        android:paddingTop="@dimen/margin_xsmall">
+
+    </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="407dp"
+        android:layout_height="230dp"
+        android:layout_marginTop="35dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/sickcartoon"
+            android:layout_width="180dp"
+            android:layout_height="195dp"
+            app:srcCompat="@drawable/sick" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/EmilySick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/EmilySick"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        android:textColor="@color/colorPrimary"></TextView>
+
+
+    <TextView
+        android:id="@+id/sickWhen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="9dp"
+        android:text="@string/sickWhen"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/EmilySick"
+        android:textColor="@color/colorPrimary"></TextView>
+
+    <HorizontalScrollView
+        android:id="@+id/scroll"
+        android:visibility="visible"
+        android:layout_width="409dp"
+        android:layout_height="260dp"
+        android:fadeScrollbars="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sickWhen">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="400dp"
+                    android:layout_height="200dp"
+                    app:srcCompat="@drawable/sickboy"></ImageView>
+
+                <TextView
+                    android:id="@+id/tv3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sickWhen2"
+                    android:textSize="20sp"
+                    android:textColor="@color/blue3"></TextView>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="400dp"
+                    android:layout_height="200dp"
+                    app:srcCompat="@drawable/sickboy2"></ImageView>
+
+                <TextView
+                    android:id="@+id/tv4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sickWhen3"
+                    android:textSize="20sp"
+                    android:textColor="@color/blue3"></TextView>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
